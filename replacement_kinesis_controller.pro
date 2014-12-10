@@ -1,4 +1,4 @@
-update=Sat 22 Nov 2014 09:37:32 PM CST
+update=Mon 08 Dec 2014 07:59:16 AM CST
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -80,3 +78,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=replacement_kinesis_controller
+[general]
+version=1

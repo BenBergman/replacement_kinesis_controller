@@ -5,4 +5,10 @@ D Generic 15 pin connector
 K CONN
 $ENDCMP
 #
+$CMP MCP23018-E
+D 16-Bit I/O Expander with Open-Drain Outputs
+K MCP23018
+F www.microchip.com
+$ENDCMP
+#
 #End Doc Library

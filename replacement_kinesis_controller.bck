@@ -1,8 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP CONN_15
-D Symbole general de connexion
+D Generic 15 pin connector
 K CONN
+$ENDCMP
+#
+$CMP MCP23018-E
+D 18 pins -  FLASH-Based 8-Bit CMOS Microcontroller
+K 16F818
+F www.microchip.com
 $ENDCMP
 #
 #End Doc Library

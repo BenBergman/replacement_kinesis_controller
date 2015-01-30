@@ -1277,4 +1277,113 @@ Wire Wire Line
 	7900 5600 7450 5600
 Text Label 7450 5600 0    60   ~ 0
 HWB
+$Comp
+L MCP23018-E U?
+U 1 1 54CAF2E5
+P 3300 6600
+F 0 "U?" H 3300 7700 60  0000 C CNN
+F 1 "MCP23018-E" H 3300 5450 60  0000 C CNN
+F 2 "" H 3300 6950 60  0000 C CNN
+F 3 "" H 3300 6950 60  0000 C CNN
+	1    3300 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 6850 2    60   BiDi ~ 0
+GPA0
+Text GLabel 4150 6700 2    60   BiDi ~ 0
+GPA1
+Text GLabel 4150 6550 2    60   BiDi ~ 0
+GPA2
+Text GLabel 4150 6400 2    60   BiDi ~ 0
+GPA3
+Text GLabel 4150 6250 2    60   BiDi ~ 0
+GPA4
+Text GLabel 4150 6100 2    60   BiDi ~ 0
+GPA5
+Text GLabel 4150 5950 2    60   BiDi ~ 0
+GPA6
+Text GLabel 4150 5800 2    60   BiDi ~ 0
+GPA7
+Text GLabel 2400 5950 0    60   BiDi ~ 0
+GPB0
+Text GLabel 2400 6100 0    60   BiDi ~ 0
+GPB1
+Text GLabel 2400 6250 0    60   BiDi ~ 0
+GPB2
+Text GLabel 2400 6400 0    60   BiDi ~ 0
+GPB3
+Text GLabel 2400 6550 0    60   BiDi ~ 0
+GPB4
+Text GLabel 2400 6700 0    60   BiDi ~ 0
+GPB5
+Text GLabel 2400 6850 0    60   BiDi ~ 0
+GPB6
+Text GLabel 2400 7000 0    60   BiDi ~ 0
+GPB7
+$Comp
+L GND #PWR?
+U 1 1 54CB370B
+P 2200 5750
+F 0 "#PWR?" H 2200 5750 30  0001 C CNN
+F 1 "GND" H 2200 5680 30  0001 C CNN
+F 2 "" H 2200 5750 60  0000 C CNN
+F 3 "" H 2200 5750 60  0000 C CNN
+	1    2200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 5650 2200 5650
+Wire Wire Line
+	2200 5650 2200 5750
+$Comp
+L VCC #PWR?
+U 1 1 54CB597A
+P 2250 7150
+F 0 "#PWR?" H 2250 7250 30  0001 C CNN
+F 1 "VCC" H 2250 7250 30  0000 C CNN
+F 2 "" H 2250 7150 60  0000 C CNN
+F 3 "" H 2250 7150 60  0000 C CNN
+	1    2250 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 7150 2250 7150
+$Comp
+L GND #PWR?
+U 1 1 54CB76C3
+P 4400 7650
+F 0 "#PWR?" H 4400 7650 30  0001 C CNN
+F 1 "GND" H 4400 7580 30  0001 C CNN
+F 2 "" H 4400 7650 60  0000 C CNN
+F 3 "" H 4400 7650 60  0000 C CNN
+	1    4400 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 54CB7764
+P 4400 7350
+F 0 "#PWR?" H 4400 7450 30  0001 C CNN
+F 1 "VCC" H 4400 7450 30  0000 C CNN
+F 2 "" H 4400 7350 60  0000 C CNN
+F 3 "" H 4400 7350 60  0000 C CNN
+	1    4400 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 7450 4400 7450
+Wire Wire Line
+	4400 7450 4400 7350
+Wire Wire Line
+	4150 7600 4400 7600
+Wire Wire Line
+	4400 7600 4400 7650
+Text GLabel 2400 7300 0    60   BiDi ~ 0
+SCL
+Text GLabel 2400 7450 0    60   BiDi ~ 0
+SDA
+Text GLabel 4150 7000 2    60   BiDi ~ 0
+INTA
+Text GLabel 4150 7150 2    60   BiDi ~ 0
+INTB
 $EndSCHEMATC

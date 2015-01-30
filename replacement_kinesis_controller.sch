@@ -1280,110 +1280,278 @@ HWB
 $Comp
 L MCP23018-E U?
 U 1 1 54CAF2E5
-P 3300 6600
-F 0 "U?" H 3300 7700 60  0000 C CNN
-F 1 "MCP23018-E" H 3300 5450 60  0000 C CNN
-F 2 "" H 3300 6950 60  0000 C CNN
-F 3 "" H 3300 6950 60  0000 C CNN
-	1    3300 6600
+P 5650 6600
+F 0 "U?" H 5650 7700 60  0000 C CNN
+F 1 "MCP23018-E" H 5650 5450 60  0000 C CNN
+F 2 "" H 5650 6950 60  0000 C CNN
+F 3 "" H 5650 6950 60  0000 C CNN
+	1    5650 6600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 6850 2    60   BiDi ~ 0
+Text GLabel 6500 6850 2    60   BiDi ~ 0
 GPA0
-Text GLabel 4150 6700 2    60   BiDi ~ 0
+Text GLabel 6500 6700 2    60   BiDi ~ 0
 GPA1
-Text GLabel 4150 6550 2    60   BiDi ~ 0
+Text GLabel 6500 6550 2    60   BiDi ~ 0
 GPA2
-Text GLabel 4150 6400 2    60   BiDi ~ 0
+Text GLabel 6500 6400 2    60   BiDi ~ 0
 GPA3
-Text GLabel 4150 6250 2    60   BiDi ~ 0
+Text GLabel 6500 6250 2    60   BiDi ~ 0
 GPA4
-Text GLabel 4150 6100 2    60   BiDi ~ 0
+Text GLabel 6500 6100 2    60   BiDi ~ 0
 GPA5
-Text GLabel 4150 5950 2    60   BiDi ~ 0
+Text GLabel 6500 5950 2    60   BiDi ~ 0
 GPA6
-Text GLabel 4150 5800 2    60   BiDi ~ 0
+Text GLabel 6500 5800 2    60   BiDi ~ 0
 GPA7
-Text GLabel 2400 5950 0    60   BiDi ~ 0
+Text GLabel 4750 5950 0    60   BiDi ~ 0
 GPB0
-Text GLabel 2400 6100 0    60   BiDi ~ 0
+Text GLabel 4750 6100 0    60   BiDi ~ 0
 GPB1
-Text GLabel 2400 6250 0    60   BiDi ~ 0
+Text GLabel 4750 6250 0    60   BiDi ~ 0
 GPB2
-Text GLabel 2400 6400 0    60   BiDi ~ 0
+Text GLabel 4750 6400 0    60   BiDi ~ 0
 GPB3
-Text GLabel 2400 6550 0    60   BiDi ~ 0
+Text GLabel 4750 6550 0    60   BiDi ~ 0
 GPB4
-Text GLabel 2400 6700 0    60   BiDi ~ 0
+Text GLabel 4750 6700 0    60   BiDi ~ 0
 GPB5
-Text GLabel 2400 6850 0    60   BiDi ~ 0
+Text GLabel 4750 6850 0    60   BiDi ~ 0
 GPB6
-Text GLabel 2400 7000 0    60   BiDi ~ 0
+Text GLabel 4750 7000 0    60   BiDi ~ 0
 GPB7
 $Comp
 L GND #PWR?
 U 1 1 54CB370B
-P 2200 5750
-F 0 "#PWR?" H 2200 5750 30  0001 C CNN
-F 1 "GND" H 2200 5680 30  0001 C CNN
-F 2 "" H 2200 5750 60  0000 C CNN
-F 3 "" H 2200 5750 60  0000 C CNN
-	1    2200 5750
+P 4550 5750
+F 0 "#PWR?" H 4550 5750 30  0001 C CNN
+F 1 "GND" H 4550 5680 30  0001 C CNN
+F 2 "" H 4550 5750 60  0000 C CNN
+F 3 "" H 4550 5750 60  0000 C CNN
+	1    4550 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 5650 2200 5650
+	4750 5650 4550 5650
 Wire Wire Line
-	2200 5650 2200 5750
+	4550 5650 4550 5750
 $Comp
 L VCC #PWR?
 U 1 1 54CB597A
-P 2250 7150
-F 0 "#PWR?" H 2250 7250 30  0001 C CNN
-F 1 "VCC" H 2250 7250 30  0000 C CNN
-F 2 "" H 2250 7150 60  0000 C CNN
-F 3 "" H 2250 7150 60  0000 C CNN
-	1    2250 7150
+P 4600 7150
+F 0 "#PWR?" H 4600 7250 30  0001 C CNN
+F 1 "VCC" H 4600 7250 30  0000 C CNN
+F 2 "" H 4600 7150 60  0000 C CNN
+F 3 "" H 4600 7150 60  0000 C CNN
+	1    4600 7150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2400 7150 2250 7150
+	4750 7150 4600 7150
 $Comp
 L GND #PWR?
 U 1 1 54CB76C3
-P 4400 7650
-F 0 "#PWR?" H 4400 7650 30  0001 C CNN
-F 1 "GND" H 4400 7580 30  0001 C CNN
-F 2 "" H 4400 7650 60  0000 C CNN
-F 3 "" H 4400 7650 60  0000 C CNN
-	1    4400 7650
+P 6750 7650
+F 0 "#PWR?" H 6750 7650 30  0001 C CNN
+F 1 "GND" H 6750 7580 30  0001 C CNN
+F 2 "" H 6750 7650 60  0000 C CNN
+F 3 "" H 6750 7650 60  0000 C CNN
+	1    6750 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR?
 U 1 1 54CB7764
-P 4400 7350
-F 0 "#PWR?" H 4400 7450 30  0001 C CNN
-F 1 "VCC" H 4400 7450 30  0000 C CNN
-F 2 "" H 4400 7350 60  0000 C CNN
-F 3 "" H 4400 7350 60  0000 C CNN
-	1    4400 7350
+P 6750 7350
+F 0 "#PWR?" H 6750 7450 30  0001 C CNN
+F 1 "VCC" H 6750 7450 30  0000 C CNN
+F 2 "" H 6750 7350 60  0000 C CNN
+F 3 "" H 6750 7350 60  0000 C CNN
+	1    6750 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 7450 4400 7450
+	6500 7450 6750 7450
 Wire Wire Line
-	4400 7450 4400 7350
+	6750 7450 6750 7350
 Wire Wire Line
-	4150 7600 4400 7600
+	6500 7600 6750 7600
 Wire Wire Line
-	4400 7600 4400 7650
-Text GLabel 2400 7300 0    60   BiDi ~ 0
+	6750 7600 6750 7650
+Text GLabel 4750 7300 0    60   BiDi ~ 0
 SCL
-Text GLabel 2400 7450 0    60   BiDi ~ 0
+Text GLabel 4750 7450 0    60   BiDi ~ 0
 SDA
-Text GLabel 4150 7000 2    60   BiDi ~ 0
+Text GLabel 6500 7000 2    60   BiDi ~ 0
 INTA
-Text GLabel 4150 7150 2    60   BiDi ~ 0
+Text GLabel 6500 7150 2    60   BiDi ~ 0
 INTB
+Text GLabel 1000 7650 0    60   Input ~ 0
+PB7
+Text GLabel 1000 7550 0    60   Input ~ 0
+PB6
+Text GLabel 1000 7450 0    60   Input ~ 0
+PB5
+Text GLabel 1000 7350 0    60   Input ~ 0
+PB4
+Text GLabel 1000 7250 0    60   Input ~ 0
+PB3
+Text GLabel 1000 7150 0    60   Input ~ 0
+PB2
+Text GLabel 1000 7050 0    60   Input ~ 0
+PB1
+Text GLabel 1000 6950 0    60   Input ~ 0
+PB0
+Text GLabel 1150 6950 2    60   Input ~ 0
+ROW_L0
+Text GLabel 1150 7050 2    60   Input ~ 0
+ROW_L1
+Text GLabel 1150 7150 2    60   Input ~ 0
+ROW_L2
+Text GLabel 1150 7250 2    60   Input ~ 0
+ROW_L3
+Text GLabel 1150 7350 2    60   Input ~ 0
+ROW_L4
+Text GLabel 1150 7450 2    60   Input ~ 0
+ROW_L5
+Text GLabel 1150 7550 2    60   Input ~ 0
+ROW_L6
+Text GLabel 1150 7650 2    60   Input ~ 0
+ROW_L7
+Text GLabel 2450 6950 2    60   BiDi ~ 0
+GPA0
+Text GLabel 2450 7050 2    60   BiDi ~ 0
+GPA1
+Text GLabel 2450 7150 2    60   BiDi ~ 0
+GPA2
+Text GLabel 2450 7250 2    60   BiDi ~ 0
+GPA3
+Text GLabel 2450 7350 2    60   BiDi ~ 0
+GPA4
+Text GLabel 2450 7450 2    60   BiDi ~ 0
+GPA5
+Text GLabel 2450 7550 2    60   BiDi ~ 0
+GPA6
+Text GLabel 2450 7650 2    60   BiDi ~ 0
+GPA7
+Text GLabel 2300 6950 0    60   Input ~ 0
+ROW_R0
+Text GLabel 2300 7050 0    60   Input ~ 0
+ROW_R1
+Text GLabel 2300 7150 0    60   Input ~ 0
+ROW_R2
+Text GLabel 2300 7250 0    60   Input ~ 0
+ROW_R3
+Text GLabel 2300 7350 0    60   Input ~ 0
+ROW_R4
+Text GLabel 2300 7450 0    60   Input ~ 0
+ROW_R5
+Text GLabel 2300 7550 0    60   Input ~ 0
+ROW_R6
+Text GLabel 2300 7650 0    60   Input ~ 0
+ROW_R7
+Wire Wire Line
+	2300 6950 2450 6950
+Wire Wire Line
+	2450 7050 2300 7050
+Wire Wire Line
+	2300 7150 2450 7150
+Wire Wire Line
+	2450 7250 2300 7250
+Wire Wire Line
+	2300 7350 2450 7350
+Wire Wire Line
+	2450 7450 2300 7450
+Wire Wire Line
+	2300 7550 2450 7550
+Wire Wire Line
+	2450 7650 2300 7650
+Wire Wire Line
+	1150 7650 1000 7650
+Wire Wire Line
+	1000 7550 1150 7550
+Wire Wire Line
+	1150 7450 1000 7450
+Wire Wire Line
+	1000 7350 1150 7350
+Wire Wire Line
+	1150 7250 1000 7250
+Wire Wire Line
+	1000 7150 1150 7150
+Wire Wire Line
+	1150 7050 1000 7050
+Wire Wire Line
+	1000 6950 1150 6950
+Text GLabel 1150 6250 2    60   Input ~ 0
+COL_0
+Text GLabel 1150 6350 2    60   Input ~ 0
+COL_1
+Text GLabel 1150 6450 2    60   Input ~ 0
+COL_2
+Text GLabel 1150 6550 2    60   Input ~ 0
+COL_3
+Text GLabel 1150 6650 2    60   Input ~ 0
+COL_4
+Text GLabel 1150 6750 2    60   Input ~ 0
+COL_5
+Text GLabel 1000 6250 0    60   Input ~ 0
+PF0
+Text GLabel 1000 6350 0    60   Input ~ 0
+PF1
+Text GLabel 1000 6450 0    60   Input ~ 0
+PF4
+Text GLabel 1000 6550 0    60   Input ~ 0
+PF5
+Text GLabel 1000 6650 0    60   Input ~ 0
+PF6
+Text GLabel 1000 6750 0    60   Input ~ 0
+PF7
+Text GLabel 2300 6250 0    60   Input ~ 0
+COL_6
+Text GLabel 2300 6350 0    60   Input ~ 0
+COL_7
+Text GLabel 2300 6450 0    60   Input ~ 0
+COL_8
+Text GLabel 2300 6550 0    60   Input ~ 0
+COL_9
+Text GLabel 2300 6650 0    60   Input ~ 0
+COL_10
+Text GLabel 2300 6750 0    60   Input ~ 0
+COL_11
+Text GLabel 2450 6250 2    60   BiDi ~ 0
+GPB0
+Text GLabel 2450 6350 2    60   BiDi ~ 0
+GPB1
+Text GLabel 2450 6450 2    60   BiDi ~ 0
+GPB2
+Text GLabel 2450 6550 2    60   BiDi ~ 0
+GPB3
+Text GLabel 2450 6650 2    60   BiDi ~ 0
+GPB4
+Text GLabel 2450 6750 2    60   BiDi ~ 0
+GPB5
+Wire Wire Line
+	1000 6250 1150 6250
+Wire Wire Line
+	1150 6350 1000 6350
+Wire Wire Line
+	1000 6450 1150 6450
+Wire Wire Line
+	1000 6550 1150 6550
+Wire Wire Line
+	1000 6650 1150 6650
+Wire Wire Line
+	1000 6750 1150 6750
+Wire Wire Line
+	2300 6750 2450 6750
+Wire Wire Line
+	2450 6650 2300 6650
+Wire Wire Line
+	2300 6550 2450 6550
+Wire Wire Line
+	2450 6450 2300 6450
+Wire Wire Line
+	2300 6350 2450 6350
+Wire Wire Line
+	2450 6250 2300 6250
 $EndSCHEMATC

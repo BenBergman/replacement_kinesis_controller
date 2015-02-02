@@ -6,8 +6,8 @@ K CONN
 $ENDCMP
 #
 $CMP MCP23018-E
-D 18 pins -  FLASH-Based 8-Bit CMOS Microcontroller
-K 16F818
+D 16-Bit I/O Expander with Open-Drain Outputs
+K MCP23018
 F www.microchip.com
 $ENDCMP
 #

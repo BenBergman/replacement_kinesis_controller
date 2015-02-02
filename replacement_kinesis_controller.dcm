@@ -11,4 +11,8 @@ K MCP23018
 F www.microchip.com
 $ENDCMP
 #
+$CMP MCP73831
+D ANALOG DEVICES/TSSOP14
+$ENDCMP
+#
 #End Doc Library

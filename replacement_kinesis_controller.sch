@@ -2757,4 +2757,16 @@ Connection ~ 13600 1400
 Wire Wire Line
 	13700 900  13700 1300
 Connection ~ 13700 1300
+Text GLabel -300 -300 2    60   Input ~ 0
+PD2
+Text GLabel -300 -200 2    60   Input ~ 0
+PD3
+Text GLabel -600 -300 0    60   Input ~ 0
+W_TXD
+Text GLabel -600 -200 0    60   Input ~ 0
+W_RXD
+Wire Wire Line
+	-600 -300 -300 -300
+Wire Wire Line
+	-600 -200 -300 -200
 $EndSCHEMATC

@@ -1818,25 +1818,14 @@ F 3 "" H 12600 1400 60  0000 C CNN
 $EndComp
 $Comp
 L USB_general CN?
-U 1 1 54D67A64
-P 13500 450
-F 0 "CN?" H 13350 800 60  0000 C CNN
-F 1 "USB_general" H 13500 100 60  0000 C CNN
-F 2 "" H 13550 350 60  0000 C CNN
-F 3 "" H 13550 350 60  0000 C CNN
-	1    13500 450 
-	0    1    1    0   
-$EndComp
-$Comp
-L USB_general CN?
 U 1 1 54D67BF0
-P 14450 1500
-F 0 "CN?" H 14300 1850 60  0000 C CNN
-F 1 "Micro-USB" H 14450 1150 60  0000 C CNN
-F 2 "" H 14500 1400 60  0000 C CNN
-F 3 "" H 14500 1400 60  0000 C CNN
-	1    14450 1500
-	-1   0    0    -1  
+P 12550 0
+F 0 "CN?" H 12400 350 60  0000 C CNN
+F 1 "Micro-USB" H 12550 -350 60  0000 C CNN
+F 2 "" H 12600 -100 60  0000 C CNN
+F 3 "" H 12600 -100 60  0000 C CNN
+	1    12550 0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7750 3250 8050 3250
@@ -2742,21 +2731,6 @@ Wire Wire Line
 	14000 1600 13000 1600
 Wire Wire Line
 	13000 1700 14000 1700
-Wire Wire Line
-	13300 900  13300 1700
-Connection ~ 13300 1700
-Wire Wire Line
-	13400 900  13400 1600
-Connection ~ 13400 1600
-Wire Wire Line
-	13500 900  13500 1500
-Connection ~ 13500 1500
-Wire Wire Line
-	13600 900  13600 1400
-Connection ~ 13600 1400
-Wire Wire Line
-	13700 900  13700 1300
-Connection ~ 13700 1300
 Text GLabel -300 -300 2    60   Input ~ 0
 PD2
 Text GLabel -300 -200 2    60   Input ~ 0
@@ -2769,4 +2743,100 @@ Wire Wire Line
 	-600 -300 -300 -300
 Wire Wire Line
 	-600 -200 -300 -200
+$Comp
+L USB_general CN?
+U 1 1 54D71ECB
+P 14450 1500
+F 0 "CN?" H 14300 1850 60  0000 C CNN
+F 1 "USB_general" H 14450 1150 60  0000 C CNN
+F 2 "" H 14500 1400 60  0000 C CNN
+F 3 "" H 14500 1400 60  0000 C CNN
+	1    14450 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 54D72D0D
+P 13300 -750
+F 0 "K?" V 13250 -750 50  0000 C CNN
+F 1 "CONN_3" V 13350 -750 40  0000 C CNN
+F 2 "" H 13300 -750 60  0000 C CNN
+F 3 "" H 13300 -750 60  0000 C CNN
+	1    13300 -750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 54D72DB4
+P 13700 -750
+F 0 "K?" V 13650 -750 50  0000 C CNN
+F 1 "CONN_3" V 13750 -750 40  0000 C CNN
+F 2 "" H 13700 -750 60  0000 C CNN
+F 3 "" H 13700 -750 60  0000 C CNN
+	1    13700 -750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 54D7305D
+P 13300 750
+F 0 "K?" V 13250 750 50  0000 C CNN
+F 1 "CONN_3" V 13350 750 40  0000 C CNN
+F 2 "" H 13300 750 60  0000 C CNN
+F 3 "" H 13300 750 60  0000 C CNN
+	1    13300 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 54D73063
+P 13700 750
+F 0 "K?" V 13650 750 50  0000 C CNN
+F 1 "CONN_3" V 13750 750 40  0000 C CNN
+F 2 "" H 13700 750 60  0000 C CNN
+F 3 "" H 13700 750 60  0000 C CNN
+	1    13700 750 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 -400 13200 -100
+Wire Wire Line
+	13200 -100 13000 -100
+Wire Wire Line
+	13300 -400 13300 0   
+Wire Wire Line
+	13300 0    13000 0   
+Wire Wire Line
+	13400 -400 13400 200 
+Wire Wire Line
+	13000 200  13800 200 
+Wire Wire Line
+	13600 -400 13600 -200
+Wire Wire Line
+	13600 -200 13000 -200
+Wire Wire Line
+	13700 -400 13700 100 
+Wire Wire Line
+	13700 100  13000 100 
+Wire Wire Line
+	13800 200  13800 -400
+Connection ~ 13400 200 
+Wire Wire Line
+	13200 1100 13200 1400
+Connection ~ 13200 1400
+Wire Wire Line
+	13300 1100 13300 1500
+Connection ~ 13300 1500
+Wire Wire Line
+	13400 1100 13400 1700
+Connection ~ 13400 1700
+Wire Wire Line
+	13600 1100 13600 1300
+Connection ~ 13600 1300
+Wire Wire Line
+	13700 1100 13700 1600
+Connection ~ 13700 1600
+Wire Wire Line
+	13800 1100 13800 1700
+Connection ~ 13800 1700
 $EndSCHEMATC

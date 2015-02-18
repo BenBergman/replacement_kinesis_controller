@@ -5,6 +5,12 @@ D Generic 15 pin connector
 K CONN
 $ENDCMP
 #
+$CMP MCP1700
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP MCP23018-E
 D 16-Bit I/O Expander with Open-Drain Outputs
 K MCP23018

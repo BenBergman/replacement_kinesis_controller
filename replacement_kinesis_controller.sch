@@ -1377,4 +1377,9 @@ U 54E60177
 F0 "Power" 60
 F1 "power.sch" 60
 $EndSheet
+Text GLabel 1500 5300 1    60   Input ~ 0
+PE6
+Wire Wire Line
+	1500 5300 1500 5450
+Connection ~ 1500 5450
 $EndSCHEMATC

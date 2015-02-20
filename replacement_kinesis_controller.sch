@@ -1249,10 +1249,8 @@ U 54E60177
 F0 "Power" 60
 F1 "power.sch" 60
 $EndSheet
-Text GLabel 1500 5300 1    60   Input ~ 0
-PE6
 Wire Wire Line
-	1500 5300 1500 5450
+	1500 5250 1500 5450
 Connection ~ 1500 5450
 $Comp
 L VCC #PWR?
@@ -1394,4 +1392,6 @@ Wire Wire Line
 	1250 3850 1450 3850
 Wire Wire Line
 	1250 4050 1450 4050
+Text GLabel 1500 5250 1    60   Input ~ 0
+PD5
 $EndSCHEMATC

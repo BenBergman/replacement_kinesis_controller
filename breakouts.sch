@@ -719,7 +719,7 @@ F 1 "DIODE" H 2500 1100 40  0000 C CNN
 F 2 "" H 2500 1200 60  0000 C CNN
 F 3 "" H 2500 1200 60  0000 C CNN
 	1    2500 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -730,7 +730,7 @@ F 1 "DIODE" H 2500 2300 40  0000 C CNN
 F 2 "" H 2500 2400 60  0000 C CNN
 F 3 "" H 2500 2400 60  0000 C CNN
 	1    2500 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -741,7 +741,7 @@ F 1 "DIODE" H 2500 2000 40  0000 C CNN
 F 2 "" H 2500 2100 60  0000 C CNN
 F 3 "" H 2500 2100 60  0000 C CNN
 	1    2500 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -752,7 +752,7 @@ F 1 "DIODE" H 2500 1400 40  0000 C CNN
 F 2 "" H 2500 1500 60  0000 C CNN
 F 3 "" H 2500 1500 60  0000 C CNN
 	1    2500 1500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -763,7 +763,7 @@ F 1 "DIODE" H 2500 1700 40  0000 C CNN
 F 2 "" H 2500 1800 60  0000 C CNN
 F 3 "" H 2500 1800 60  0000 C CNN
 	1    2500 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2100 1600 2100 1200
@@ -865,7 +865,7 @@ F 1 "DIODE" H 4100 1100 40  0000 C CNN
 F 2 "" H 4100 1200 60  0000 C CNN
 F 3 "" H 4100 1200 60  0000 C CNN
 	1    4100 1200
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -876,7 +876,7 @@ F 1 "DIODE" H 4100 2300 40  0000 C CNN
 F 2 "" H 4100 2400 60  0000 C CNN
 F 3 "" H 4100 2400 60  0000 C CNN
 	1    4100 2400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -887,7 +887,7 @@ F 1 "DIODE" H 4100 2000 40  0000 C CNN
 F 2 "" H 4100 2100 60  0000 C CNN
 F 3 "" H 4100 2100 60  0000 C CNN
 	1    4100 2100
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -898,7 +898,7 @@ F 1 "DIODE" H 4100 1400 40  0000 C CNN
 F 2 "" H 4100 1500 60  0000 C CNN
 F 3 "" H 4100 1500 60  0000 C CNN
 	1    4100 1500
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D?
@@ -909,7 +909,7 @@ F 1 "DIODE" H 4100 1700 40  0000 C CNN
 F 2 "" H 4100 1800 60  0000 C CNN
 F 3 "" H 4100 1800 60  0000 C CNN
 	1    4100 1800
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4500 1600 4500 1200

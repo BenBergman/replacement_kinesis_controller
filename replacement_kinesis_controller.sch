@@ -456,7 +456,7 @@ F 3 "" H 10800 5750 300 0000 C CNN
 	1    10800 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 1400 0    60   Input ~ 0
+Text GLabel 7400 1400 0    60   Input ~ 0
 AREF
 $Comp
 L R R?
@@ -1014,7 +1014,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 5550 10800 5550
 Wire Wire Line
-	7750 1400 8050 1400
+	7400 1400 8050 1400
 Wire Wire Line
 	4850 4150 4400 4150
 Wire Wire Line
@@ -1474,4 +1474,29 @@ Wire Wire Line
 	9450 4600 9700 4600
 Wire Wire Line
 	9450 4750 9700 4750
+$Comp
+L Csmall C?
+U 1 1 54E8C7B8
+P 7600 1500
+F 0 "C?" H 7625 1550 30  0000 L CNN
+F 1 "0.1uF" H 7625 1450 30  0000 L CNN
+F 2 "" H 7600 1500 60  0000 C CNN
+F 3 "" H 7600 1500 60  0000 C CNN
+	1    7600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54E8CE58
+P 7600 1650
+F 0 "#PWR?" H 7600 1650 30  0001 C CNN
+F 1 "GND" H 7600 1580 30  0001 C CNN
+F 2 "" H 7600 1650 60  0000 C CNN
+F 3 "" H 7600 1650 60  0000 C CNN
+	1    7600 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 1400
+Wire Wire Line
+	7600 1600 7600 1650
 $EndSCHEMATC

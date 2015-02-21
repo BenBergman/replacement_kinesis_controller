@@ -371,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 6100 2700 6900
 Wire Wire Line
-	2700 6900 3200 6900
+	2250 6900 3200 6900
 Wire Wire Line
 	3200 5500 3200 5200
 Wire Wire Line
@@ -581,4 +581,21 @@ F 3 "" H 2600 3400 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	2600 3650 2600 3700
+$Comp
+L R R?
+U 1 1 54E98880
+P 2250 6500
+F 0 "R?" V 2330 6500 40  0000 C CNN
+F 1 "10k" V 2257 6501 40  0000 C CNN
+F 2 "" V 2180 6500 30  0000 C CNN
+F 3 "" H 2250 6500 30  0000 C CNN
+	1    2250 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 6250 2250 5900
+Connection ~ 2250 5900
+Wire Wire Line
+	2250 6750 2250 6900
+Connection ~ 2700 6900
 $EndSCHEMATC

@@ -274,18 +274,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 2500 4950 3500
 Connection ~ 4950 3500
-Text GLabel 3950 4950 2    60   Input ~ 0
-PD2
-Text GLabel 3950 5050 2    60   Input ~ 0
-PD3
-Text GLabel 3650 4950 0    60   Input ~ 0
-W_TXD
-Text GLabel 3650 5050 0    60   Input ~ 0
-W_RXD
-Wire Wire Line
-	3650 4950 3950 4950
-Wire Wire Line
-	3650 5050 3950 5050
 $Comp
 L SW_PUSH SW?
 U 1 1 54E72241

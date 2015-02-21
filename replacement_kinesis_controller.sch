@@ -226,9 +226,9 @@ Text GLabel 10850 2500 2    60   Input ~ 0
 PD3
 Text GLabel 10850 2600 2    60   Input ~ 0
 PD4
-Text GLabel 9700 4450 2    60   Input ~ 0
+Text GLabel 9400 4450 2    60   Input ~ 0
 PD5
-Text GLabel 9700 4600 2    60   Input ~ 0
+Text GLabel 9400 4600 2    60   Input ~ 0
 PD6
 Text GLabel 10850 2900 2    60   Input ~ 0
 PD7
@@ -1456,24 +1456,24 @@ Wire Wire Line
 	3550 4600 3450 4600
 Wire Wire Line
 	3450 4600 3450 4900
-Text GLabel 9450 4600 0    60   Input ~ 0
+Text GLabel 9150 4600 0    60   Input ~ 0
 BAT_GUAGE
-Text GLabel 9450 4450 0    60   Input ~ 0
+Text GLabel 9150 4450 0    60   Input ~ 0
 BAT_GUAGE_TOGGLE
 Text GLabel 10850 2800 2    60   Input ~ 0
 PD6
 Text GLabel 10850 2700 2    60   Input ~ 0
 PD5
-Text GLabel 9700 4750 2    60   Input ~ 0
+Text GLabel 9400 4750 2    60   Input ~ 0
 PD7
-Text GLabel 9450 4750 0    60   Input ~ 0
+Text GLabel 9150 4750 0    60   Input ~ 0
 CHARGE_STATUS
 Wire Wire Line
-	9450 4450 9700 4450
+	9150 4450 9400 4450
 Wire Wire Line
-	9450 4600 9700 4600
+	9150 4600 9400 4600
 Wire Wire Line
-	9450 4750 9700 4750
+	9150 4750 9400 4750
 $Comp
 L Csmall C?
 U 1 1 54E8C7B8
@@ -1499,4 +1499,16 @@ $EndComp
 Connection ~ 7600 1400
 Wire Wire Line
 	7600 1600 7600 1650
+Text GLabel 10800 4550 2    60   Input ~ 0
+PD2
+Text GLabel 10800 4650 2    60   Input ~ 0
+PD3
+Text GLabel 10500 4550 0    60   Input ~ 0
+W_TXD
+Text GLabel 10500 4650 0    60   Input ~ 0
+W_RXD
+Wire Wire Line
+	10500 4550 10800 4550
+Wire Wire Line
+	10500 4650 10800 4650
 $EndSCHEMATC

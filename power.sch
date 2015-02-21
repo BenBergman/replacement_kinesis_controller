@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 1750 2200 1750
 Wire Wire Line
-	2200 1750 2200 1650
+	2200 1650 2200 2000
 Wire Wire Line
 	2200 1350 2200 1450
 Connection ~ 1500 1350
@@ -309,7 +309,7 @@ Wire Wire Line
 Connection ~ 4850 1450
 Wire Wire Line
 	5250 1650 5250 2550
-Text Notes 2100 2300 0    60   ~ 0
+Text Notes 2200 2500 0    60   ~ 0
 NOTE: Hasu's HHKB controller\nnotes that 73831 leaks from\nVCC when not charging while\n73832 does not
 $Comp
 L MOS_P Q?
@@ -482,7 +482,7 @@ Connection ~ 3200 4000
 Wire Wire Line
 	1100 3900 1100 4000
 Wire Wire Line
-	2600 3700 2600 3500
+	2600 3500 2600 3700
 Wire Wire Line
 	800  3500 2800 3500
 $Comp
@@ -563,4 +563,9 @@ Wire Wire Line
 	1100 4000 1200 4000
 Wire Wire Line
 	2200 4000 2400 4000
+Text GLabel 1950 2000 0    60   Input ~ 0
+CHARGE_STATUS
+Wire Wire Line
+	2200 2000 1950 2000
+Connection ~ 2200 1750
 $EndSCHEMATC

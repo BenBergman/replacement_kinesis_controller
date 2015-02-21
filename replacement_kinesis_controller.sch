@@ -226,9 +226,9 @@ Text GLabel 10850 2500 2    60   Input ~ 0
 PD3
 Text GLabel 10850 2600 2    60   Input ~ 0
 PD4
-Text GLabel 10850 2700 2    60   Input ~ 0
+Text GLabel 9700 4450 2    60   Input ~ 0
 PD5
-Text GLabel 10850 2800 2    60   Input ~ 0
+Text GLabel 9700 4600 2    60   Input ~ 0
 PD6
 Text GLabel 10850 2900 2    60   Input ~ 0
 PD7
@@ -1393,7 +1393,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 4050 1450 4050
 Text GLabel 1500 5250 1    60   Input ~ 0
-PD5
+PD4
 Text GLabel 2450 4600 0    60   BiDi ~ 0
 INTA
 Text GLabel 2450 4900 0    60   BiDi ~ 0
@@ -1456,4 +1456,22 @@ Wire Wire Line
 	3550 4600 3450 4600
 Wire Wire Line
 	3450 4600 3450 4900
+Text GLabel 9450 4600 0    60   Input ~ 0
+BAT_GUAGE
+Text GLabel 9450 4450 0    60   Input ~ 0
+BAT_GUAGE_TOGGLE
+Text GLabel 10850 2800 2    60   Input ~ 0
+PD6
+Text GLabel 10850 2700 2    60   Input ~ 0
+PD5
+Text GLabel 9700 4750 2    60   Input ~ 0
+PD7
+Text GLabel 9450 4750 0    60   Input ~ 0
+CHARGE_STATUS
+Wire Wire Line
+	9450 4450 9700 4450
+Wire Wire Line
+	9450 4600 9700 4600
+Wire Wire Line
+	9450 4750 9700 4750
 $EndSCHEMATC

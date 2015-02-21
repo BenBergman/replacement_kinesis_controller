@@ -1023,4 +1023,6 @@ Wire Wire Line
 	4250 6450 2950 6450
 Wire Wire Line
 	2950 6450 2950 6300
+Text Notes 9450 1250 0    60   ~ 0
+5V and VCC here are from the\nWT12 breakout board's built in\nregulator. Will this cause problems?
 $EndSCHEMATC

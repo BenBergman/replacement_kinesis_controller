@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
-Date ""
+Title "Kinesis Contoured Bluetooth Controller"
+Date "Sat 21 Feb 2015"
 Rev ""
-Comp ""
+Comp "Retrohm"
 Comment1 ""
 Comment2 ""
 Comment3 ""

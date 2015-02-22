@@ -2,7 +2,7 @@
 
   (general
     (links 208)
-    (no_connects 150)
+    (no_connects 208)
     (area 73.609999 43.129999 172.770001 129.590001)
     (thickness 1.6)
     (drawings 4)
@@ -386,7 +386,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97674)
-    (at 123.19 139.590001)
+    (at 250.19 82.55)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E71464)
@@ -415,7 +415,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97680)
-    (at 123.19 139.590001)
+    (at 250.19 93.98)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E7146A)
@@ -444,7 +444,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E9768C)
-    (at 123.19 139.590001)
+    (at 250.19 104.14)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54712AB9)
@@ -473,7 +473,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97698)
-    (at 123.19 139.590001)
+    (at 250.19 113.03)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54712A9E)
@@ -502,7 +502,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976A4)
-    (at 123.19 139.590001)
+    (at 250.19 119.38)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E8C7B8)
@@ -531,7 +531,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976B0)
-    (at 123.19 139.590001)
+    (at 250.19 128.27)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5471A3C1)
@@ -560,7 +560,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976BC)
-    (at 123.19 139.590001)
+    (at 248.92 137.16)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DBE8)
@@ -589,7 +589,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976C8)
-    (at 123.19 139.590001)
+    (at 248.92 146.05)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DD4B)
@@ -618,7 +618,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976D4)
-    (at 123.19 139.590001)
+    (at 247.65 152.4)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DD90)
@@ -646,8 +646,8 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976E0)
-    (at 123.19 139.590001)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97EDE)
+    (at 250.19 160.02)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DDCE)
@@ -676,7 +676,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976EC)
-    (at 123.19 139.590001)
+    (at 266.7 161.29)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723810)
@@ -705,7 +705,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976F8)
-    (at 123.19 139.590001)
+    (at 266.7 152.4)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723817)
@@ -734,7 +734,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97704)
-    (at 123.19 139.590001)
+    (at 266.7 146.05)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5472381E)
@@ -763,7 +763,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97710)
-    (at 123.19 139.590001)
+    (at 265.43 139.7)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723825)
@@ -792,7 +792,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E9771C)
-    (at 123.19 139.590001)
+    (at 265.43 133.35)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E5D929/54E5E1C6)
@@ -821,7 +821,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97728)
-    (at 123.19 139.590001)
+    (at 264.16 125.73)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E5D929/54E5E1CD)
@@ -850,7 +850,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97734)
-    (at 123.19 139.590001)
+    (at 264.16 119.38)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E62CE7)
@@ -879,7 +879,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97740)
-    (at 123.19 139.590001)
+    (at 264.16 113.03)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E6429D)
@@ -908,7 +908,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E9774C)
-    (at 123.19 139.590001)
+    (at 264.16 104.14)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E62D18)
@@ -937,7 +937,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97758)
-    (at 123.19 139.590001)
+    (at 262.89 95.25)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E642DD)
@@ -966,7 +966,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54E97768)
-    (at 123.19 139.590001)
+    (at 35.56 102.87)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54718FC1)
@@ -996,7 +996,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54E97778)
-    (at 123.19 139.590001)
+    (at 90.17 171.45)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FAFA)
@@ -1026,7 +1026,7 @@
   )
 
   (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 54E91C76) (tstamp 54E97786)
-    (at 123.19 139.590001)
+    (at 35.56 78.74)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54C9D61C)
@@ -1052,7 +1052,7 @@
   )
 
   (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 54E91C76) (tstamp 54E97794)
-    (at 123.19 139.590001)
+    (at 205.74 88.9)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54E5D929/54E9AF59)
@@ -1078,7 +1078,7 @@
   )
 
   (module replacement_kinesis_controller:JUMPER_3 (layer F.Cu) (tedit 54E91EC2) (tstamp 54E977A8)
-    (at 123.19 139.590001)
+    (at 120.65 144.78)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54E60177/54E62CFC)
@@ -1111,7 +1111,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977B6)
-    (at 123.19 139.590001)
+    (at 91.44 177.8)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB01)
@@ -1142,7 +1142,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977C4)
-    (at 123.19 139.590001)
+    (at 91.44 184.15)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB0F)
@@ -1173,7 +1173,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977D2)
-    (at 123.19 139.590001)
+    (at 80.01 177.8)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB08)
@@ -1204,7 +1204,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977E0)
-    (at 123.19 139.590001)
+    (at 80.01 184.15)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB16)
@@ -1235,7 +1235,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x03 (layer F.Cu) (tedit 54E9350E) (tstamp 54E977F2)
-    (at 123.19 139.590001)
+    (at 50.8 78.74)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54717033)
@@ -1273,7 +1273,7 @@
   )
 
   (module replacement_kinesis_controller:Molex_FFC_13 (layer F.Cu) (tedit 54E9531D) (tstamp 54E9780E)
-    (at 123.19 139.590001)
+    (at 87.63 63.5)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BDFA)
@@ -1335,7 +1335,7 @@
   )
 
   (module replacement_kinesis_controller:Molex_FFC_13_mirror (layer F.Cu) (tedit 54E955C0) (tstamp 54E9782A)
-    (at 123.19 139.590001)
+    (at 86.36 105.41)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BDF3)
@@ -1397,7 +1397,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 (layer F.Cu) (tedit 54E95962) (tstamp 54E9783F)
-    (at 123.19 139.590001)
+    (at 87.63 127)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE16)
@@ -1442,7 +1442,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 (layer F.Cu) (tedit 54E95962) (tstamp 54E97854)
-    (at 123.19 139.590001)
+    (at 158.75 127)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE0F)
@@ -1487,7 +1487,7 @@
   )
 
   (module replacement_kinesis_controller:Molex_FFC_13_mirror (layer F.Cu) (tedit 54E955C0) (tstamp 54E97870)
-    (at 123.19 139.590001)
+    (at 161.29 52.07)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE01)
@@ -1549,7 +1549,7 @@
   )
 
   (module replacement_kinesis_controller:Molex_FFC_13 (layer F.Cu) (tedit 54E9531D) (tstamp 54E9788C)
-    (at 123.19 139.590001)
+    (at 158.75 111.76)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE08)
@@ -1611,7 +1611,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 54E93613) (tstamp 54E978A2)
-    (at 123.19 139.590001)
+    (at 87.63 26.67)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5FC1B)
@@ -1657,7 +1657,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 54E95F1B) (tstamp 54E978B3)
-    (at 123.19 139.590001)
+    (at 90.17 17.78)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5516D)
@@ -1694,7 +1694,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 54E93613) (tstamp 54E978C9)
-    (at 123.19 139.590001)
+    (at 161.29 24.13)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5FC70)
@@ -1740,7 +1740,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 54E95B3F) (tstamp 54E978E4)
-    (at 123.19 139.590001)
+    (at 49.53 57.15)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E56E45)
@@ -1797,7 +1797,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 54E95B3F) (tstamp 54E978FF)
-    (at 123.19 139.590001)
+    (at 50.8 67.31)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E56DFC)
@@ -1854,7 +1854,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54E9790E)
-    (at 123.19 139.590001)
+    (at 213.36 118.11)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB39)
@@ -1887,7 +1887,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54E9791D)
-    (at 123.19 139.590001)
+    (at 215.9 125.73)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB32)
@@ -1920,7 +1920,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54E9792C)
-    (at 123.19 139.590001)
+    (at 217.17 132.08)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB2B)
@@ -1953,7 +1953,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54E9793B)
-    (at 123.19 139.590001)
+    (at 217.17 138.43)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB24)
@@ -1986,7 +1986,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 54E95F1B) (tstamp 54E9794C)
-    (at 123.19 139.590001)
+    (at 214.63 100.33)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB17)
@@ -2023,7 +2023,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 54E95F1B) (tstamp 54E9795D)
-    (at 123.19 139.590001)
+    (at 215.9 107.95)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB00)
@@ -2060,7 +2060,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97969)
-    (at 123.19 139.590001)
+    (at 180.34 58.42)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E7D934)
@@ -2089,7 +2089,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97975)
-    (at 123.19 139.590001)
+    (at 180.34 64.77)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E7D842)
@@ -2118,7 +2118,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97981)
-    (at 123.19 139.590001)
+    (at 62.23 90.17)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54DD660F)
@@ -2147,7 +2147,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E9798D)
-    (at 123.19 139.590001)
+    (at 62.23 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54DD668D)
@@ -2176,7 +2176,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97999)
-    (at 123.19 139.590001)
+    (at 38.1 86.36)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D2DF)
@@ -2205,7 +2205,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979A5)
-    (at 123.19 139.590001)
+    (at 48.26 97.79)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D377)
@@ -2234,7 +2234,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979B1)
-    (at 123.19 139.590001)
+    (at 55.88 102.87)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D340)
@@ -2263,7 +2263,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979BD)
-    (at 123.19 139.590001)
+    (at 57.15 46.99)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54713CD3)
@@ -2292,7 +2292,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979C9)
-    (at 123.19 139.590001)
+    (at 57.15 40.64)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54713FD9)
@@ -2321,7 +2321,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979D5)
-    (at 123.19 139.590001)
+    (at 214.63 88.9)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E5D929/54E9AF94)
@@ -2350,7 +2350,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979E1)
-    (at 123.19 139.590001)
+    (at 120.65 166.37)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E642D2)
@@ -2379,7 +2379,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979ED)
-    (at 123.19 139.590001)
+    (at 134.62 143.51)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D1F)
@@ -2408,7 +2408,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979F9)
-    (at 123.19 139.590001)
+    (at 125.73 196.85)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E98880)
@@ -2437,7 +2437,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A05)
-    (at 123.19 139.590001)
+    (at 120.65 171.45)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E977E3)
@@ -2466,7 +2466,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A11)
-    (at 123.19 139.590001)
+    (at 125.73 189.23)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E64265)
@@ -2495,7 +2495,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A1D)
-    (at 123.19 139.590001)
+    (at 134.62 189.23)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E6426C)
@@ -2524,7 +2524,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A29)
-    (at 123.19 139.590001)
+    (at 134.62 196.85)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E64273)
@@ -2553,7 +2553,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A35)
-    (at 123.19 139.590001)
+    (at 116.84 151.13)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D03)
@@ -2582,7 +2582,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A41)
-    (at 123.19 139.590001)
+    (at 124.46 151.13)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D0A)
@@ -2611,7 +2611,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54E97A4D)
-    (at 123.19 139.590001)
+    (at 118.11 138.43)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E60177/54E81B6B)
@@ -2639,7 +2639,7 @@
   )
 
   (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54E97A59)
-    (at 123.19 139.590001)
+    (at 123.19 138.43)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E60177/54E9976A)
@@ -2667,7 +2667,7 @@
   )
 
   (module SMD_Packages:SOIC-28 (layer F.Cu) (tedit 54E96CE3) (tstamp 54E97A80)
-    (at 123.19 139.590001)
+    (at 153.67 64.77)
     (descr "Module CMS SOJ 28 pins large")
     (tags "CMS SOJ")
     (path /54CAF2E5)
@@ -2744,7 +2744,7 @@
   )
 
   (module Housings_SOT-23_SOT-143_TSOT-6:SOT23_Transistor_Handsoldering_RevB_14Mar2014 (layer F.Cu) (tedit 54E96CE4) (tstamp 54E97A8B)
-    (at 123.19 139.590001)
+    (at 133.35 168.91)
     (descr "SOT23,  Transistor, Handsoldering,")
     (tags "SOT23,  Transistor, Handsoldering,")
     (path /54E60177/54E642AB)

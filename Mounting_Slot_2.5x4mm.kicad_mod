@@ -1,0 +1,11 @@
+(module Mounting_Slot_2.5x4mm (layer F.Cu) (tedit 54E96B41)
+  (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+  (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+  (fp_text reference Mounting_Slot_2.5x4mm (at 0 -4.0005) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 1.00076 5.00126) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole rect (at 0 0) (size 4 2.5) (drill oval 4 2.5) (layers *.Cu *.Mask F.SilkS))
+)

@@ -51,7 +51,7 @@ U 1 1 54E4BDF3
 P 1900 4000
 F 0 "P3" V 1860 4000 60  0000 C CNN
 F 1 "CONN_13" V 1970 4000 60  0000 C CNN
-F 2 "" H 1900 4000 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Molex_FFC_13" H 1900 4000 60  0001 C CNN
 F 3 "" H 1900 4000 60  0000 C CNN
 	1    1900 4000
 	-1   0    0    1   
@@ -62,7 +62,7 @@ U 1 1 54E4BDFA
 P 1900 2400
 F 0 "P2" V 1860 2400 60  0000 C CNN
 F 1 "CONN_13" V 1970 2400 60  0000 C CNN
-F 2 "" H 1900 2400 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Molex_FFC_13_mirror" H 1900 2400 60  0001 C CNN
 F 3 "" H 1900 2400 60  0000 C CNN
 	1    1900 2400
 	-1   0    0    -1  
@@ -73,7 +73,7 @@ U 1 1 54E4BE01
 P 7100 2400
 F 0 "P6" V 7060 2400 60  0000 C CNN
 F 1 "CONN_13" V 7170 2400 60  0000 C CNN
-F 2 "" H 7100 2400 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Molex_FFC_13" H 7100 2400 60  0001 C CNN
 F 3 "" H 7100 2400 60  0000 C CNN
 	1    7100 2400
 	1    0    0    -1  
@@ -84,7 +84,7 @@ U 1 1 54E4BE08
 P 7100 4000
 F 0 "P7" V 7060 4000 60  0000 C CNN
 F 1 "CONN_13" V 7170 4000 60  0000 C CNN
-F 2 "" H 7100 4000 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Molex_FFC_13_mirror" H 7100 4000 60  0001 C CNN
 F 3 "" H 7100 4000 60  0000 C CNN
 	1    7100 4000
 	1    0    0    1   
@@ -95,7 +95,7 @@ U 1 1 54E4BE0F
 P 6100 5500
 F 0 "P5" V 6050 5500 60  0000 C CNN
 F 1 "CONN_10" V 6150 5500 60  0000 C CNN
-F 2 "" H 6100 5500 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10" H 6100 5500 60  0001 C CNN
 F 3 "" H 6100 5500 60  0000 C CNN
 	1    6100 5500
 	0    -1   1    0   
@@ -106,7 +106,7 @@ U 1 1 54E4BE16
 P 2900 5500
 F 0 "P4" V 2850 5500 60  0000 C CNN
 F 1 "CONN_10" V 2950 5500 60  0000 C CNN
-F 2 "" H 2900 5500 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10" H 2900 5500 60  0001 C CNN
 F 3 "" H 2900 5500 60  0000 C CNN
 	1    2900 5500
 	0    1    1    0   

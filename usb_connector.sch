@@ -51,7 +51,7 @@ U 1 1 54E6FAE7
 P 3950 4750
 F 0 "CN3" H 3800 5100 60  0000 C CNN
 F 1 "Mini-USB" H 3950 4400 60  0000 C CNN
-F 2 "" H 4000 4650 60  0000 C CNN
+F 2 "" H 4000 4650 60  0001 C CNN
 F 3 "" H 4000 4650 60  0000 C CNN
 	1    3950 4750
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 54E6FAEE
 P 3950 3250
 F 0 "CN2" H 3800 3600 60  0000 C CNN
 F 1 "Micro-USB" H 3950 2900 60  0000 C CNN
-F 2 "" H 4000 3150 60  0000 C CNN
+F 2 "" H 4000 3150 60  0001 C CNN
 F 3 "" H 4000 3150 60  0000 C CNN
 	1    3950 3250
 	1    0    0    -1  
@@ -83,7 +83,7 @@ U 1 1 54E6FAFA
 P 5850 4750
 F 0 "CN4" H 5700 5100 60  0000 C CNN
 F 1 "USB_general" H 5850 4400 60  0000 C CNN
-F 2 "" H 5900 4650 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05" H 5900 4650 60  0001 C CNN
 F 3 "" H 5900 4650 60  0000 C CNN
 	1    5850 4750
 	-1   0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 54E6FB01
 P 4700 2500
 F 0 "K1" V 4650 2500 50  0000 C CNN
 F 1 "CONN_3" V 4750 2500 40  0000 C CNN
-F 2 "" H 4700 2500 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03" H 4700 2500 60  0001 C CNN
 F 3 "" H 4700 2500 60  0000 C CNN
 	1    4700 2500
 	0    -1   -1   0   
@@ -105,7 +105,7 @@ U 1 1 54E6FB08
 P 5100 2500
 F 0 "K3" V 5050 2500 50  0000 C CNN
 F 1 "CONN_3" V 5150 2500 40  0000 C CNN
-F 2 "" H 5100 2500 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03" H 5100 2500 60  0001 C CNN
 F 3 "" H 5100 2500 60  0000 C CNN
 	1    5100 2500
 	0    -1   -1   0   
@@ -116,7 +116,7 @@ U 1 1 54E6FB0F
 P 4700 4000
 F 0 "K2" V 4650 4000 50  0000 C CNN
 F 1 "CONN_3" V 4750 4000 40  0000 C CNN
-F 2 "" H 4700 4000 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03" H 4700 4000 60  0001 C CNN
 F 3 "" H 4700 4000 60  0000 C CNN
 	1    4700 4000
 	0    -1   -1   0   
@@ -127,7 +127,7 @@ U 1 1 54E6FB16
 P 5100 4000
 F 0 "K4" V 5050 4000 50  0000 C CNN
 F 1 "CONN_3" V 5150 4000 40  0000 C CNN
-F 2 "" H 5100 4000 60  0000 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03" H 5100 4000 60  0001 C CNN
 F 3 "" H 5100 4000 60  0000 C CNN
 	1    5100 4000
 	0    -1   -1   0   

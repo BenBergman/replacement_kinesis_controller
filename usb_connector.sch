@@ -51,7 +51,7 @@ U 1 1 54E6FAE7
 P 3950 4750
 F 0 "CN3" H 3800 5100 60  0000 C CNN
 F 1 "Mini-USB" H 3950 4400 60  0000 C CNN
-F 2 "" H 4000 4650 60  0001 C CNN
+F 2 "replacement_kinesis_controller:USB_mini_B-vertical" H 4000 4650 60  0001 C CNN
 F 3 "" H 4000 4650 60  0000 C CNN
 	1    3950 4750
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 54E6FAEE
 P 3950 3250
 F 0 "CN2" H 3800 3600 60  0000 C CNN
 F 1 "Micro-USB" H 3950 2900 60  0000 C CNN
-F 2 "" H 4000 3150 60  0001 C CNN
+F 2 "replacement_kinesis_controller:USB_micro_B-vertical" H 4000 3150 60  0001 C CNN
 F 3 "" H 4000 3150 60  0000 C CNN
 	1    3950 3250
 	1    0    0    -1  

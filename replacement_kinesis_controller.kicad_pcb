@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew "(2015-02-21 BZR 5441)-product")
 
   (general
-    (links 224)
+    (links 0)
     (no_connects 224)
-    (area 73.609999 43.129999 172.770001 129.590001)
+    (area 23.412429 14.315 269.279001 199.979)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)

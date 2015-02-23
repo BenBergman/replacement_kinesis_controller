@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Sun 22 Feb 2015 12:12:14 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Sun 22 Feb 2015 08:54:44 PM CST
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -172,14 +172,14 @@ BeginCmp
 TimeStamp = /54E7D74E;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E7D7B4;
 Reference = D2;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
@@ -200,70 +200,70 @@ BeginCmp
 TimeStamp = /54E54FA3/54E5FC22;
 Reference = D5;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC37;
 Reference = D6;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC3E;
 Reference = D7;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC30;
 Reference = D8;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC29;
 Reference = D9;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC77;
 Reference = D10;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC8C;
 Reference = D11;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC93;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC85;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E5FC7E;
 Reference = D14;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-323_Handsolder;
 EndCmp
 
 BeginCmp

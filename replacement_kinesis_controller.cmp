@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Sun 22 Feb 2015 08:58:00 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Sun 22 Feb 2015 09:39:50 PM CST
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /54E60177/54E642A4;
 Reference = D17;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:SOD-123_Handsolder;
 EndCmp
 
 BeginCmp
@@ -347,7 +347,7 @@ BeginCmp
 TimeStamp = /54E5D929/54E5E1DA;
 Reference = L1;
 ValeurCmp = 10nH;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -417,35 +417,35 @@ BeginCmp
 TimeStamp = /54E54FA3/54E5517B;
 Reference = P10;
 ValeurCmp = CONN_8;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E803DF;
 Reference = P11;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E80505;
 Reference = P12;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E55166;
 Reference = P13;
 ValeurCmp = CONN_6;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E54FA3/54E55174;
 Reference = P14;
 ValeurCmp = CONN_8;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x08;
 EndCmp
 
 BeginCmp

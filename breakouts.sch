@@ -107,7 +107,7 @@ U 1 1 54E55166
 P 4500 3200
 F 0 "P13" V 4450 3200 60  0000 C CNN
 F 1 "CONN_6" V 4550 3200 60  0000 C CNN
-F 2 "" H 4500 3200 60  0001 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06" H 4500 3200 60  0001 C CNN
 F 3 "" H 4500 3200 60  0000 C CNN
 	1    4500 3200
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 54E55174
 P 4500 4000
 F 0 "P14" V 4450 4000 60  0000 C CNN
 F 1 "CONN_8" V 4550 4000 60  0000 C CNN
-F 2 "" H 4500 4000 60  0001 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x08" H 4500 4000 60  0001 C CNN
 F 3 "" H 4500 4000 60  0000 C CNN
 	1    4500 4000
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 54E5517B
 P 2250 4000
 F 0 "P10" V 2200 4000 60  0000 C CNN
 F 1 "CONN_8" V 2300 4000 60  0000 C CNN
-F 2 "" H 2250 4000 60  0001 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x08" H 2250 4000 60  0001 C CNN
 F 3 "" H 2250 4000 60  0000 C CNN
 	1    2250 4000
 	-1   0    0    -1  
@@ -997,7 +997,7 @@ U 1 1 54E803DF
 P 3350 6100
 F 0 "P11" V 3300 6100 50  0000 C CNN
 F 1 "CONN_5" V 3400 6100 50  0000 C CNN
-F 2 "" H 3350 6100 60  0001 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05" H 3350 6100 60  0001 C CNN
 F 3 "" H 3350 6100 60  0000 C CNN
 	1    3350 6100
 	1    0    0    -1  
@@ -1008,7 +1008,7 @@ U 1 1 54E80505
 P 3850 6100
 F 0 "P12" V 3800 6100 50  0000 C CNN
 F 1 "CONN_5" V 3900 6100 50  0000 C CNN
-F 2 "" H 3850 6100 60  0001 C CNN
+F 2 "replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05" H 3850 6100 60  0001 C CNN
 F 3 "" H 3850 6100 60  0000 C CNN
 	1    3850 6100
 	-1   0    0    -1  

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Sun 22 Feb 2015 10:23:24 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 08:32:32 PM CST
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -291,7 +291,7 @@ BeginCmp
 TimeStamp = /54719515;
 Reference = F1;
 ValeurCmp = 500mA;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -529,21 +529,21 @@ BeginCmp
 TimeStamp = /54E60177/54E64290;
 Reference = Q1;
 ValeurCmp = MOS_P;
-IdModule  = ;
+IdModule  = SMD_Packages:DPAK-2-1EP_GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E60177/54E6425E;
 Reference = Q2;
 ValeurCmp = MOS_N;
-IdModule  = ;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E60177/54E64257;
 Reference = Q3;
 ValeurCmp = MOS_P;
-IdModule  = ;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -753,7 +753,7 @@ BeginCmp
 TimeStamp = /5470D21B;
 Reference = U6;
 ValeurCmp = ATmega32U4;
-IdModule  = ;
+IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
@@ -767,7 +767,7 @@ BeginCmp
 TimeStamp = /54E60177/54E62CF5;
 Reference = U8;
 ValeurCmp = MCP73832;
-IdModule  = ;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23-5;
 EndCmp
 
 BeginCmp
@@ -781,7 +781,7 @@ BeginCmp
 TimeStamp = /5471287B;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = ;
+IdModule  = Crystals:Crystal_HC49-SD_SMD;
 EndCmp
 
 EndListe

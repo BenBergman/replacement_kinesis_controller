@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 08:56:10 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 09:19:43 PM CST
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -515,7 +515,7 @@ BeginCmp
 TimeStamp = /54E60177/54E62D4A;
 Reference = P24;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:JST-2;
 EndCmp
 
 BeginCmp
@@ -690,14 +690,14 @@ BeginCmp
 TimeStamp = /5471885E;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E5D929/54E72241;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
 EndCmp
 
 BeginCmp

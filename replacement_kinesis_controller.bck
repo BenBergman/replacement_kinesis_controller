@@ -5,6 +5,11 @@ D Generic 15 pin connector
 K CONN
 $ENDCMP
 #
+$CMP CONN_16
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
 $CMP MCP1700
 D Linear Regulator +5V
 K POWER REGUL

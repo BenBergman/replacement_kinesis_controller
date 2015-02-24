@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 08:32:32 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 08:56:10 PM CST
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -760,7 +760,7 @@ BeginCmp
 TimeStamp = /54E5D929/54E5E191;
 Reference = U7;
 ValeurCmp = WT12-A;
-IdModule  = ;
+IdModule  = replacement_kinesis_controller:WT12;
 EndCmp
 
 BeginCmp

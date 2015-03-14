@@ -2,11 +2,11 @@
 
   (general
     (links 408)
-    (no_connects 34)
+    (no_connects 33)
     (area 73.609999 43.129999 172.770001 142.290001)
     (thickness 1.6)
-    (drawings 135)
-    (tracks 2132)
+    (drawings 167)
+    (tracks 2133)
     (zones 0)
     (modules 138)
     (nets 139)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -622,11 +622,11 @@
     (pad "" np_thru_hole circle (at 1.016 1.016 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54FBB225) (tstamp 54FBBBB8)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 55047316) (tstamp 54FBBBB8)
     (at 146.05 134.62 90)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x02 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x02 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0 90) (layer F.SilkS) hide
@@ -647,12 +647,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 54EA195B) (tstamp 54FBBBAB)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 55047306) (tstamp 54FBBBAB)
     (at 140.97 134.62)
-    (fp_text reference REF** (at 0 4.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 4.5) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value LED_RGB_WS2811 (at 0 -4.4) (layer F.Fab)
+    (fp_text value LED_RGB_WS2811 (at 0 -4.4) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -668,11 +668,11 @@
     (pad 2 smd rect (at -2.6 0) (size 1.8 1) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54FBB7FC)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047563) (tstamp 54FBB7FC)
     (at 163.83 140.97)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
@@ -695,11 +695,11 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54FBAD8D) (tstamp 54FBB7C0)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047301) (tstamp 54FBB7C0)
     (at 153.67 133.35 180)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286 180) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0 180) (layer F.SilkS) hide
@@ -722,11 +722,11 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54FBB7A5)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047309) (tstamp 54FBB7A5)
     (at 153.67 140.97)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
@@ -749,11 +749,11 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54FBB1DA)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 5504728F) (tstamp 54FBB1DA)
     (at 128.27 140.97)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
@@ -776,11 +776,11 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_6mm locked (layer F.Cu) (tedit 54E96923) (tstamp 54E96923)
+  (module Mounting_Holes:MountingHole_6mm locked (layer F.Cu) (tedit 550473B3) (tstamp 54E96923)
     (at 123.19 67.31)
     (descr "Mounting hole, Befestigungsbohrung, 6mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 6mm, No Annular, Kein Restring,")
-    (fp_text reference MountingHole_6mm (at 0 -8.001) (layer F.SilkS)
+    (fp_text reference MountingHole_6mm (at 0 -8.001) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 1.00076 8.001) (layer F.SilkS) hide
@@ -790,11 +790,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.99948 5.99948) (drill 5.99948) (layers))
   )
 
-  (module replacement_kinesis_controller:Plated_Mounting_Hole locked (layer F.Cu) (tedit 54E968D8) (tstamp 54E96AD3)
+  (module replacement_kinesis_controller:Plated_Mounting_Hole locked (layer F.Cu) (tedit 55047451) (tstamp 54E96AD3)
     (at 123.19 99.06)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Straight_1x01 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference Pin_Header_Straight_1x01 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
@@ -803,16 +803,16 @@
     (pad 1 thru_hole circle (at 0 0) (size 6.4 6.4) (drill 3.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97674)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55047524) (tstamp 54E97674)
     (at 168.91 87.63 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E71464)
     (attr smd)
-    (fp_text reference C1 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference C1 (at 0 -2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -832,16 +832,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97680)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55047526) (tstamp 54E97680)
     (at 168.91 90.17 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E7146A)
     (attr smd)
-    (fp_text reference C2 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -861,16 +861,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E9768C)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046F16) (tstamp 54E9768C)
     (at 95.25 91.44 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54712AB9)
     (attr smd)
-    (fp_text reference C3 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C3 (at 3.175 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 10pF (at -3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -890,16 +890,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97698)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046EEF) (tstamp 54E97698)
     (at 105.41 91.44 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54712A9E)
     (attr smd)
-    (fp_text reference C4 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C4 (at 3.175 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 10pF (at -3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -919,16 +919,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976A4)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046F57) (tstamp 54E976A4)
     (at 100.965 63.5 90)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E8C7B8)
     (attr smd)
-    (fp_text reference C5 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference C5 (at -3.175 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value 0.1uF (at 3.81 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -948,16 +948,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976B0)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046F13) (tstamp 54E976B0)
     (at 97.79 91.44 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5471A3C1)
     (attr smd)
-    (fp_text reference C6 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C6 (at 3.175 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 0.1uF (at -3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -977,16 +977,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976BC)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550471D5) (tstamp 54E976BC)
     (at 110.49 121.92)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DBE8)
     (attr smd)
-    (fp_text reference C7 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference C7 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1006,16 +1006,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976C8)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550471DB) (tstamp 54E976C8)
     (at 118.745 121.92)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DD4B)
     (attr smd)
-    (fp_text reference C8 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference C8 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1035,16 +1035,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976D4)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550471E3) (tstamp 54E976D4)
     (at 127.635 121.92)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DD90)
     (attr smd)
-    (fp_text reference C9 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1064,16 +1064,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97EDE)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550471EA) (tstamp 54E97EDE)
     (at 135.89 121.92)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E6DDCE)
     (attr smd)
-    (fp_text reference C10 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Csmall (at 0 2.1) (layer F.SilkS)
+    (fp_text value Csmall (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1093,16 +1093,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976EC)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046F10) (tstamp 54E976EC)
     (at 100.33 91.44 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723810)
     (attr smd)
-    (fp_text reference C11 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C11 (at 3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 0.1uF (at -3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1122,16 +1122,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E976F8)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55046F00) (tstamp 54E976F8)
     (at 102.87 91.44 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723817)
     (attr smd)
-    (fp_text reference C12 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C12 (at 3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 0.1uF (at -3.81 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1151,16 +1151,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97704)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55047351) (tstamp 54E97704)
     (at 83.82 70.485 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5472381E)
     (attr smd)
-    (fp_text reference C13 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference C13 (at 3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 0.1uF (at -3.81 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1180,16 +1180,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97710)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55047354) (tstamp 54E97710)
     (at 83.82 73.025 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54723825)
     (attr smd)
-    (fp_text reference C14 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference C14 (at 3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10uF (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 10uF (at -3.81 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1209,16 +1209,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54EC2CDB)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550474BD) (tstamp 54EC2CDB)
     (at 144.78 74.93 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E5D929/54E5E1C6)
     (attr smd)
-    (fp_text reference C15 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C15 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 10uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1238,16 +1238,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54EC2CCE)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550474BA) (tstamp 54EC2CCE)
     (at 142.24 74.93 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E5D929/54E5E1CD)
     (attr smd)
-    (fp_text reference C16 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C16 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 0.1uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1267,16 +1267,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97734)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 5504708A) (tstamp 54E97734)
     (at 95.25 105.41 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E62CE7)
     (attr smd)
-    (fp_text reference C17 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C17 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1296,16 +1296,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97740)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 550470FA) (tstamp 54E97740)
     (at 109.22 105.41 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E6429D)
     (attr smd)
-    (fp_text reference C18 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C18 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1325,16 +1325,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E9774C)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 55047054) (tstamp 54E9774C)
     (at 92.71 105.41 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E62D18)
     (attr smd)
-    (fp_text reference C19 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C19 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1354,16 +1354,16 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 54E97758)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 5504710C) (tstamp 54E97758)
     (at 111.76 105.41 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /54E60177/54E642DD)
     (attr smd)
-    (fp_text reference C20 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference C20 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -1383,12 +1383,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54F68361)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 55047341) (tstamp 54F68361)
     (at 78.105 78.105 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54718FC1)
-    (fp_text reference CN1 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference CN1 (at 0 2.54 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB_general (at 0 0 270) (layer F.SilkS) hide
@@ -1418,12 +1418,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54E97778)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 55047247) (tstamp 54E97778)
     (at 85.09 133.985)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FAFA)
-    (fp_text reference CN4 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference CN4 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB_general (at 0 0) (layer F.SilkS) hide
@@ -1453,17 +1453,17 @@
     )
   )
 
-  (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 54E91C76) (tstamp 54E97786)
-    (at 93.345 63.5 270)
+  (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 55046F3F) (tstamp 54E97786)
+    (at 94.615 63.5 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54C9D61C)
     (clearance 0.1778)
     (attr smd)
-    (fp_text reference JP1 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference JP1 (at 2.54 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JUMPER (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value JUMPER (at -4.445 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.016 -0.889) (end 1.016 0.889) (layer F.SilkS) (width 0.15))
@@ -1480,17 +1480,17 @@
       (net 10 PE2))
   )
 
-  (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 54E91C76) (tstamp 54EC2CC1)
+  (module replacement_kinesis_controller:JUMPER_2 (layer F.Cu) (tedit 55047459) (tstamp 54EC2CC1)
     (at 133.35 95.25)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54E5D929/54E9AF59)
     (clearance 0.1778)
     (attr smd)
-    (fp_text reference JP2 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference JP2 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JUMPER (at 0 2.1) (layer F.SilkS)
+    (fp_text value JUMPER (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.016 -0.889) (end 1.016 0.889) (layer F.SilkS) (width 0.15))
@@ -1507,17 +1507,17 @@
       (net 12 "Net-(JP2-Pad2)"))
   )
 
-  (module replacement_kinesis_controller:JUMPER_3 (layer F.Cu) (tedit 54E91EC2) (tstamp 54EC2565)
+  (module replacement_kinesis_controller:JUMPER_3 (layer F.Cu) (tedit 55047188) (tstamp 54EC2565)
     (at 102.87 113.03)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54E60177/54E62CFC)
     (clearance 0.1778)
     (attr smd)
-    (fp_text reference JP3 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference JP3 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JUMPER3 (at 0 2.1) (layer F.SilkS)
+    (fp_text value JUMPER3 (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.016 -0.889) (end 1.397 -0.889) (layer F.SilkS) (width 0.15))
@@ -1541,12 +1541,12 @@
       (net 14 "Net-(JP3-Pad1)"))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977B6)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047266) (tstamp 54E977B6)
     (at 102.87 136.525 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB01)
-    (fp_text reference K1 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference K1 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3 (at 0 0 90) (layer F.SilkS) hide
@@ -1572,12 +1572,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977C4)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 5504724D) (tstamp 54E977C4)
     (at 77.47 136.525 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB0F)
-    (fp_text reference K2 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference K2 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3 (at 0 0 90) (layer F.SilkS) hide
@@ -1603,12 +1603,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977D2)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 550472A4) (tstamp 54E977D2)
     (at 118.11 136.525 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB08)
-    (fp_text reference K3 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference K3 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3 (at 0 0 90) (layer F.SilkS) hide
@@ -1634,12 +1634,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 54E977E0)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047251) (tstamp 54E977E0)
     (at 92.71 136.525 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FB16)
-    (fp_text reference K4 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference K4 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3 (at 0 0 90) (layer F.SilkS) hide
@@ -1665,12 +1665,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x03 (layer F.Cu) (tedit 54E9350E) (tstamp 54E977F2)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x03 (layer F.Cu) (tedit 5504739F) (tstamp 54E977F2)
     (at 100.33 53.34)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54717033)
-    (fp_text reference P1 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference P1 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3X2 (at 0 0) (layer F.SilkS) hide
@@ -1703,12 +1703,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 locked (layer F.Cu) (tedit 54E95962) (tstamp 54E9783F)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 locked (layer F.Cu) (tedit 55047177) (tstamp 54E9783F)
     (at 86.36 124.46 180)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE16)
-    (fp_text reference P4 (at 0 -2.286 180) (layer F.SilkS)
+    (fp_text reference P4 (at 0 -2.286 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_10 (at 0 0 180) (layer F.SilkS) hide
@@ -1748,12 +1748,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 locked (layer F.Cu) (tedit 54E95962) (tstamp 54E97854)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x10 locked (layer F.Cu) (tedit 5504754F) (tstamp 54E97854)
     (at 160.02 124.46)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE0F)
-    (fp_text reference P5 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference P5 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_10 (at 0 0) (layer F.SilkS) hide
@@ -1793,12 +1793,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 54E93613) (tstamp 54E978A2)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 5504715A) (tstamp 54E978A2)
     (at 92.71 118.11)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5FC1B)
-    (fp_text reference P8 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference P8 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_5X2 (at 0 0) (layer F.SilkS) hide
@@ -1839,12 +1839,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 54E93613) (tstamp 54E978C9)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_2x05 (layer F.Cu) (tedit 5504754C) (tstamp 54E978C9)
     (at 153.67 118.11)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5FC70)
-    (fp_text reference P15 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference P15 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_5X2 (at 0 0) (layer F.SilkS) hide
@@ -1885,12 +1885,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 54E95B3F) (tstamp 54E978FF)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 55046C19) (tstamp 54E978FF)
     (at 110.49 74.93 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E56DFC)
-    (fp_text reference P17 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference P17 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_16 (at 0 0 270) (layer F.SilkS) hide
@@ -1942,12 +1942,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54EC2CB2)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 5504748C) (tstamp 54EC2CB2)
     (at 151.13 78.74 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB39)
-    (fp_text reference P18 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference P18 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value POWER (at 0 0 90) (layer F.SilkS) hide
@@ -1975,12 +1975,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54EC2CA2)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 550474C3) (tstamp 54EC2CA2)
     (at 151.13 68.58 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB32)
-    (fp_text reference P19 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference P19 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCM (at 0 0 270) (layer F.SilkS) hide
@@ -2008,12 +2008,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54EC2C92)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 550473BC) (tstamp 54EC2C92)
     (at 130.81 73.66 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB2B)
-    (fp_text reference P20 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference P20 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value UART (at 0 0 90) (layer F.SilkS) hide
@@ -2041,12 +2041,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 54E95E65) (tstamp 54EC2C82)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x04 (layer F.Cu) (tedit 550474CE) (tstamp 54EC2C82)
     (at 151.13 58.42 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB24)
-    (fp_text reference P21 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference P21 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPI (at 0 0 270) (layer F.SilkS) hide
@@ -2074,12 +2074,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 54E95F1B) (tstamp 54EC2C72)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 550473B9) (tstamp 54EC2C72)
     (at 130.81 60.96 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB17)
-    (fp_text reference P22 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference P22 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value IO (at 0 0 90) (layer F.SilkS) hide
@@ -2111,12 +2111,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 54E95F1B) (tstamp 54EC2C60)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x06 (layer F.Cu) (tedit 55047489) (tstamp 54EC2C60)
     (at 140.97 82.55)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E5EB00)
-    (fp_text reference P23 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference P23 (at 0 -2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SMIRF (at 0 0) (layer F.SilkS) hide
@@ -2148,16 +2148,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54EE9A83)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 550475BC) (tstamp 54EE9A83)
     (at 154.305 99.06)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E7D934)
     (attr smd)
-    (fp_text reference R1 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R1 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1) (layer F.SilkS)
+    (fp_text value R (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2177,16 +2177,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97975)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047533) (tstamp 54E97975)
     (at 154.305 101.6)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E7D842)
     (attr smd)
-    (fp_text reference R2 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1) (layer F.SilkS)
+    (fp_text value R (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2206,16 +2206,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97981)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504720A) (tstamp 54E97981)
     (at 114.3 114.3)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54DD660F)
     (attr smd)
-    (fp_text reference R3 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R3 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1) (layer F.SilkS)
+    (fp_text value R (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2235,16 +2235,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E9798D)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047208) (tstamp 54E9798D)
     (at 114.3 111.76)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54DD668D)
     (attr smd)
-    (fp_text reference R4 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R4 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1) (layer F.SilkS)
+    (fp_text value R (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2264,16 +2264,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97999)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55046F54) (tstamp 54E97999)
     (at 97.155 63.5 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D2DF)
     (attr smd)
-    (fp_text reference R5 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference R5 (at -3.175 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value R (at 2.54 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2293,16 +2293,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979A5)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504739D) (tstamp 54E979A5)
     (at 98.425 47.625 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D377)
     (attr smd)
-    (fp_text reference R6 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference R6 (at 0 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value R (at 0 2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2322,16 +2322,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979B1)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 550473A4) (tstamp 54E979B1)
     (at 102.235 47.625 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54C9D340)
     (attr smd)
-    (fp_text reference R7 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference R7 (at 0 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value R (at 0 2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2351,16 +2351,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979BD)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504735B) (tstamp 54E979BD)
     (at 83.82 78.105 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54713CD3)
     (attr smd)
-    (fp_text reference R8 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference R8 (at 3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22 (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 22 (at -3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2380,16 +2380,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979C9)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504735F) (tstamp 54E979C9)
     (at 83.82 80.645 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54713FD9)
     (attr smd)
-    (fp_text reference R9 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference R9 (at 3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22 (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 22 (at -3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2409,16 +2409,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54EC2C4E)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504749D) (tstamp 54EC2C4E)
     (at 137.16 74.93 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E5D929/54E9AF94)
     (attr smd)
-    (fp_text reference R10 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R10 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value R (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2438,16 +2438,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979E1)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047093) (tstamp 54E979E1)
     (at 97.79 105.41 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E642D2)
     (attr smd)
-    (fp_text reference R11 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference R11 (at 0 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value 10k (at 0 2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2467,16 +2467,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979ED)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047133) (tstamp 54E979ED)
     (at 95.25 109.22)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D1F)
     (attr smd)
-    (fp_text reference R12 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R12 (at -3.81 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 2.1) (layer F.SilkS)
+    (fp_text value R (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2496,16 +2496,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E979F9)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047430) (tstamp 54E979F9)
     (at 115.8875 91.7575 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E98880)
     (attr smd)
-    (fp_text reference R13 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference R13 (at 0 -2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 10k (at 0 2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2525,16 +2525,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A05)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 550470A8) (tstamp 54E97A05)
     (at 100.33 105.41 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E977E3)
     (attr smd)
-    (fp_text reference R14 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference R14 (at 0 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value 1k (at 0 2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2554,16 +2554,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A11)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504742C) (tstamp 54E97A11)
     (at 115.8875 85.4075)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E64265)
     (attr smd)
-    (fp_text reference R15 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R15 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 2.1) (layer F.SilkS)
+    (fp_text value 100k (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2583,16 +2583,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A1D)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5504741F) (tstamp 54E97A1D)
     (at 115.8875 79.0575)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E6426C)
     (attr smd)
-    (fp_text reference R16 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference R16 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.1) (layer F.SilkS)
+    (fp_text value 10k (at 0 2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2612,16 +2612,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A29)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047419) (tstamp 54E97A29)
     (at 115.8875 76.5175 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E64273)
     (attr smd)
-    (fp_text reference R17 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference R17 (at 0 -2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 10k (at 0 2.1 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2641,16 +2641,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A35)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047193) (tstamp 54E97A35)
     (at 101.6 117.475 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D03)
     (attr smd)
-    (fp_text reference R18 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R18 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2k (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 2k (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2670,16 +2670,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54E97A41)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047197) (tstamp 54E97A41)
     (at 104.14 117.475 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E60177/54E62D0A)
     (attr smd)
-    (fp_text reference R19 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R19 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.1 270) (layer F.SilkS)
+    (fp_text value 10k (at 0 2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -2699,12 +2699,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54F68350)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 550471F7) (tstamp 54F68350)
     (at 108.585 111.125 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E60177/54E81B6B)
-    (fp_text reference SW3 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference SW3 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPST (at 0 0 270) (layer F.SilkS) hide
@@ -2727,12 +2727,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54F68336)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 5504720E) (tstamp 54F68336)
     (at 108.585 117.475 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E60177/54E9976A)
-    (fp_text reference SW4 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference SW4 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPST (at 0 0 270) (layer F.SilkS) hide
@@ -2755,16 +2755,16 @@
     )
   )
 
-  (module SMD_Packages:SOIC-28 (layer F.Cu) (tedit 54E96CE3) (tstamp 54EA1CAB)
+  (module SMD_Packages:SOIC-28 (layer F.Cu) (tedit 55047588) (tstamp 54EA1CAB)
     (at 165.735 75.565 270)
     (descr "Module CMS SOJ 28 pins large")
     (tags "CMS SOJ")
     (path /54CAF2E5)
     (attr smd)
-    (fp_text reference U1 (at 0 -1.26238 270) (layer F.SilkS)
+    (fp_text reference U1 (at 0 -1.26238 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP23018-E (at 0 1.27 270) (layer F.SilkS)
+    (fp_text value MCP23018-E (at 0 1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 8.763 2.667) (end -8.89 2.667) (layer F.SilkS) (width 0.15))
@@ -2832,12 +2832,12 @@
       (net 74 "Net-(U1-Pad28)"))
   )
 
-  (module replacement_kinesis_controller:Molex_FFC_13_mirror locked (layer F.Cu) (tedit 54E955C0) (tstamp 54E98782)
+  (module replacement_kinesis_controller:Molex_FFC_13_mirror locked (layer F.Cu) (tedit 55046F67) (tstamp 54E98782)
     (at 80.01 54.61 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BDFA)
-    (fp_text reference P2 (at 0 -4.826 90) (layer F.SilkS)
+    (fp_text reference P2 (at 0 -4.826 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_13 (at 0 0 90) (layer F.SilkS) hide
@@ -2894,12 +2894,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Molex_FFC_13 locked (layer F.Cu) (tedit 54E9531D) (tstamp 54E98CCD)
+  (module replacement_kinesis_controller:Molex_FFC_13 locked (layer F.Cu) (tedit 55047127) (tstamp 54E98CCD)
     (at 77.47 104.14 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BDF3)
-    (fp_text reference P3 (at 0 -4.826 90) (layer F.SilkS)
+    (fp_text reference P3 (at 0 -4.826 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_13 (at 0 0 90) (layer F.SilkS) hide
@@ -2956,12 +2956,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Molex_FFC_13 locked (layer F.Cu) (tedit 54E9531D) (tstamp 54E98CE9)
+  (module replacement_kinesis_controller:Molex_FFC_13 locked (layer F.Cu) (tedit 55047514) (tstamp 54E98CE9)
     (at 166.37 54.61 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE01)
-    (fp_text reference P6 (at 0 -4.826 270) (layer F.SilkS)
+    (fp_text reference P6 (at 0 -4.826 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_13 (at 0 0 270) (layer F.SilkS) hide
@@ -3018,12 +3018,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Molex_FFC_13_mirror locked (layer F.Cu) (tedit 54E955C0) (tstamp 54E98D05)
+  (module replacement_kinesis_controller:Molex_FFC_13_mirror locked (layer F.Cu) (tedit 55047553) (tstamp 54E98D05)
     (at 168.91 104.14 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E4ACC7/54E4BE08)
-    (fp_text reference P7 (at 0 -4.826 270) (layer F.SilkS)
+    (fp_text reference P7 (at 0 -4.826 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_13 (at 0 0 270) (layer F.SilkS) hide
@@ -3080,13 +3080,13 @@
     )
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 54EA195B) (tstamp 54EA1976)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 5504726C) (tstamp 54EA1976)
     (at 110.49 126.492)
     (path /54D44801)
-    (fp_text reference U2 (at 0 4.5) (layer F.SilkS)
+    (fp_text reference U2 (at 0 4.5) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab)
+    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -3108,13 +3108,13 @@
       (net 132 PD4))
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 54EA195B) (tstamp 54EA1985)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 5504727A) (tstamp 54EA1985)
     (at 118.872 126.492)
     (path /54D448A3)
-    (fp_text reference U3 (at 0 4.5) (layer F.SilkS)
+    (fp_text reference U3 (at 0 4.5) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab)
+    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -3136,13 +3136,13 @@
       (net 76 "Net-(U2-Pad1)"))
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 54EA195B) (tstamp 54EA1994)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 550472AE) (tstamp 54EA1994)
     (at 127.508 126.492)
     (path /54D4492D)
-    (fp_text reference U4 (at 0 4.5) (layer F.SilkS)
+    (fp_text reference U4 (at 0 4.5) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab)
+    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -3164,13 +3164,13 @@
       (net 78 "Net-(U3-Pad1)"))
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 54EA195B) (tstamp 54EA19A3)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 locked (layer F.Cu) (tedit 550472C9) (tstamp 54EA19A3)
     (at 135.89 126.492)
     (path /54D449DE)
-    (fp_text reference U5 (at 0 4.5) (layer F.SilkS)
+    (fp_text reference U5 (at 0 4.5) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab)
+    (fp_text value WS2811_RGB_LED (at 0 -4.4) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -3192,12 +3192,12 @@
       (net 80 "Net-(U4-Pad1)"))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54EC2C41)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 550473EC) (tstamp 54EC2C41)
     (at 130.81 81.28 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54EA265F)
-    (fp_text reference P25 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference P25 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB (at 0 0 90) (layer F.SilkS) hide
@@ -3220,13 +3220,13 @@
     )
   )
 
-  (module replacement_kinesis_controller:USB_micro_B-vertical (layer F.Cu) (tedit 55046441) (tstamp 54EAB511)
+  (module replacement_kinesis_controller:USB_micro_B-vertical (layer F.Cu) (tedit 5504726E) (tstamp 54EAB511)
     (at 110.49 134.62)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FAEE)
     (clearance 0.1778)
-    (fp_text reference CN2 (at 0 -5.1) (layer F.SilkS)
+    (fp_text reference CN2 (at 0 -5.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Micro-USB (at 0 -3.1) (layer F.SilkS) hide
@@ -3261,12 +3261,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:USB_mini_B-vertical (layer F.Cu) (tedit 5504662E) (tstamp 54EAB526)
+  (module replacement_kinesis_controller:USB_mini_B-vertical (layer F.Cu) (tedit 55047256) (tstamp 54EAB526)
     (at 85.09 139.065)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E6F569/54E6FAE7)
-    (fp_text reference CN3 (at 0 -5.1) (layer F.SilkS)
+    (fp_text reference CN3 (at 0 -5.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mini-USB (at 0 -3.1) (layer F.SilkS) hide
@@ -3301,13 +3301,13 @@
     )
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB532)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047539) (tstamp 54EAB532)
     (at 154.305 106.68 180)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E7D74E)
     (attr smd)
-    (fp_text reference D1 (at 0 -1.7 180) (layer F.SilkS)
+    (fp_text reference D1 (at 0 -1.7 180) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 180) (layer F.SilkS) hide
@@ -3325,13 +3325,13 @@
       (net 54 "Net-(D1-Pad2)"))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB53E)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047537) (tstamp 54EAB53E)
     (at 154.305 104.14 180)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E7D7B4)
     (attr smd)
-    (fp_text reference D2 (at 0 -1.7 180) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -1.7 180) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 180) (layer F.SilkS) hide
@@ -3349,16 +3349,16 @@
       (net 56 "Net-(D2-Pad2)"))
   )
 
-  (module LEDs:LED-0805 (layer F.Cu) (tedit 54EAAB51) (tstamp 54EAB79A)
+  (module LEDs:LED-0805 (layer F.Cu) (tedit 55047395) (tstamp 54EAB79A)
     (at 95.25 47.625 270)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /54C9D45A)
     (attr smd)
-    (fp_text reference D3 (at 0 -1.27 270) (layer F.SilkS)
+    (fp_text reference D3 (at 0 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.27 270) (layer F.SilkS)
+    (fp_text value LED (at 0 1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.49784 0.29972) (end 0.49784 0.62484) (layer F.SilkS) (width 0.15))
@@ -3420,16 +3420,16 @@
       (net 2 GND))
   )
 
-  (module LEDs:LED-0805 (layer F.Cu) (tedit 54EAAB51) (tstamp 54EAB87A)
+  (module LEDs:LED-0805 (layer F.Cu) (tedit 550473AA) (tstamp 54EAB87A)
     (at 105.41 47.625 270)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /54C9D4B9)
     (attr smd)
-    (fp_text reference D4 (at 0 -1.27 270) (layer F.SilkS)
+    (fp_text reference D4 (at 0 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.27 270) (layer F.SilkS)
+    (fp_text value LED (at 0 1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.49784 0.29972) (end 0.49784 0.62484) (layer F.SilkS) (width 0.15))
@@ -3491,13 +3491,13 @@
       (net 37 PE6))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB556)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047138) (tstamp 54EAB556)
     (at 87.63 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC22)
     (attr smd)
-    (fp_text reference D5 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D5 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3515,13 +3515,13 @@
       (net 133 PB4))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB562)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 5504713B) (tstamp 54EAB562)
     (at 90.17 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC37)
     (attr smd)
-    (fp_text reference D6 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D6 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3539,13 +3539,13 @@
       (net 133 PB4))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB56E)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 5504713E) (tstamp 54EAB56E)
     (at 92.71 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC3E)
     (attr smd)
-    (fp_text reference D7 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D7 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3563,13 +3563,13 @@
       (net 95 ROW_L5))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB57A)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047141) (tstamp 54EAB57A)
     (at 95.25 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC30)
     (attr smd)
-    (fp_text reference D8 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D8 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3587,13 +3587,13 @@
       (net 95 ROW_L5))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB586)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047143) (tstamp 54EAB586)
     (at 97.79 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC29)
     (attr smd)
-    (fp_text reference D9 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D9 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3611,13 +3611,13 @@
       (net 95 ROW_L5))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB592)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 5504753C) (tstamp 54EAB592)
     (at 148.59 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC77)
     (attr smd)
-    (fp_text reference D10 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D10 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3635,13 +3635,13 @@
       (net 84 GPA4))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB59E)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047541) (tstamp 54EAB59E)
     (at 151.13 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC8C)
     (attr smd)
-    (fp_text reference D11 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D11 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3659,13 +3659,13 @@
       (net 84 GPA4))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB5AA)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047544) (tstamp 54EAB5AA)
     (at 153.67 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC93)
     (attr smd)
-    (fp_text reference D12 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D12 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3683,13 +3683,13 @@
       (net 114 ROW_R5))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB5B6)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047547) (tstamp 54EAB5B6)
     (at 156.21 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC85)
     (attr smd)
-    (fp_text reference D13 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D13 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3707,13 +3707,13 @@
       (net 114 ROW_R5))
   )
 
-  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 54EA9618) (tstamp 54EAB5C2)
+  (module replacement_kinesis_controller:SOD-323_Handsolder (layer F.Cu) (tedit 55047549) (tstamp 54EAB5C2)
     (at 158.75 112.395 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E54FA3/54E5FC7E)
     (attr smd)
-    (fp_text reference D14 (at 0 -1.7 90) (layer F.SilkS)
+    (fp_text reference D14 (at 0 -1.7 90) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODE (at 0.1 1.9 90) (layer F.SilkS) hide
@@ -3731,16 +3731,16 @@
       (net 114 ROW_R5))
   )
 
-  (module LEDs:LED-0805 (layer F.Cu) (tedit 54EAAB51) (tstamp 54EC2C34)
+  (module LEDs:LED-0805 (layer F.Cu) (tedit 550474A0) (tstamp 54EC2C34)
     (at 139.7 74.93 270)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /54E5D929/54E9AFFB)
     (attr smd)
-    (fp_text reference D15 (at 0 -1.27 270) (layer F.SilkS)
+    (fp_text reference D15 (at 0 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.27 270) (layer F.SilkS)
+    (fp_text value LED (at 0 1.27 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.49784 0.29972) (end 0.49784 0.62484) (layer F.SilkS) (width 0.15))
@@ -3802,16 +3802,16 @@
       (net 2 GND))
   )
 
-  (module LEDs:LED-0805 (layer F.Cu) (tedit 54EAAB51) (tstamp 54EAB8C3)
+  (module LEDs:LED-0805 (layer F.Cu) (tedit 5504714E) (tstamp 54EAB8C3)
     (at 99.695 111.125 90)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /54E60177/54E62CEE)
     (attr smd)
-    (fp_text reference D16 (at 0 -1.27 90) (layer F.SilkS)
+    (fp_text reference D16 (at 0 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.27 90) (layer F.SilkS)
+    (fp_text value LED (at 0 1.27 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.49784 0.29972) (end 0.49784 0.62484) (layer F.SilkS) (width 0.15))
@@ -3873,13 +3873,13 @@
       (net 63 "Net-(D16-Pad2)"))
   )
 
-  (module replacement_kinesis_controller:SOD-123_Handsolder (layer F.Cu) (tedit 54EA9941) (tstamp 54EAB5DA)
+  (module replacement_kinesis_controller:SOD-123_Handsolder (layer F.Cu) (tedit 550470B1) (tstamp 54EAB5DA)
     (at 102.87 105.41 270)
     (descr SOD-323)
     (tags SOD-323)
     (path /54E60177/54E642A4)
     (attr smd)
-    (fp_text reference D17 (at 0 -1.7 270) (layer F.SilkS)
+    (fp_text reference D17 (at 0 -1.7 270) (layer F.SilkS) hide
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DIODESCH (at 0.1 1.9 270) (layer F.SilkS) hide
@@ -3897,16 +3897,16 @@
       (net 8 "Net-(C18-Pad1)"))
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54EC2BF8)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 550474B5) (tstamp 54EC2BF8)
     (at 147.32 74.93 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54E5D929/54E5E1DA)
     (attr smd)
-    (fp_text reference L1 (at 0 -2.1 90) (layer F.SilkS)
+    (fp_text reference L1 (at 0 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10nH (at 0 2.1 90) (layer F.SilkS)
+    (fp_text value 10nH (at 0 2.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -3926,12 +3926,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54EAB603)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 55047212) (tstamp 54EAB603)
     (at 120.015 111.76 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E803DF)
-    (fp_text reference P11 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference P11 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_5 (at 0 0 270) (layer F.SilkS) hide
@@ -3961,12 +3961,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 54E8E890) (tstamp 54EAB613)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x05 (layer F.Cu) (tedit 5504752B) (tstamp 54EAB613)
     (at 147.32 101.6 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E80505)
-    (fp_text reference P12 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference P12 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_5 (at 0 0 270) (layer F.SilkS) hide
@@ -3996,16 +3996,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 54EBFF5D)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 55047357) (tstamp 54EBFF5D)
     (at 83.82 75.565 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /54719515)
     (attr smd)
-    (fp_text reference F1 (at 0 -2.1 180) (layer F.SilkS)
+    (fp_text reference F1 (at 3.175 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 500mA (at 0 2.1 180) (layer F.SilkS)
+    (fp_text value 500mA (at -4.445 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -4025,17 +4025,17 @@
     )
   )
 
-  (module Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm (layer F.Cu) (tedit 54130A77) (tstamp 54EBFFA2)
+  (module Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm (layer F.Cu) (tedit 55046F1C) (tstamp 54EBFFA2)
     (at 100.33 77.343 90)
     (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /5470D21B)
     (clearance 0.2032)
     (attr smd)
-    (fp_text reference U6 (at 0 -7.45 90) (layer F.SilkS)
+    (fp_text reference U6 (at 0 -7.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ATmega32U4 (at 0 7.45 90) (layer F.SilkS)
+    (fp_text value ATmega32U4 (at 0 7.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -6.7 -6.7) (end -6.7 6.7) (layer F.CrtYd) (width 0.05))
@@ -4146,16 +4146,16 @@
     )
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-5 (layer F.Cu) (tedit 53DE885F) (tstamp 54EBFFD9)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-5 (layer F.Cu) (tedit 5504704C) (tstamp 54EBFFD9)
     (at 89.535 105.41 90)
     (descr "5-pin SOT23 package")
     (tags SOT23-5)
     (path /54E60177/54E62CF5)
     (attr smd)
-    (fp_text reference U8 (at 0 -2.9 90) (layer F.SilkS)
+    (fp_text reference U8 (at 0 -2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
-    (fp_text value MCP73832 (at 0 2.9 90) (layer F.SilkS)
+    (fp_text value MCP73832 (at 0 2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
     (fp_circle (center -0.3 -1.7) (end -0.2 -1.7) (layer F.SilkS) (width 0.15))
@@ -4180,13 +4180,13 @@
     )
   )
 
-  (module Crystals:Crystal_HC49-SD_SMD (layer F.Cu) (tedit 54EBE861) (tstamp 54EBFFDF)
+  (module Crystals:Crystal_HC49-SD_SMD (layer F.Cu) (tedit 55047119) (tstamp 54EBFFDF)
     (at 100.33 99.06)
     (descr "Crystal, Quarz, HC49-SD, SMD,")
     (tags "Crystal, Quarz, HC49-SD, SMD,")
     (path /5471287B)
     (attr smd)
-    (fp_text reference X1 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference X1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 16MHz (at 2.54 5.08) (layer F.SilkS) hide
@@ -4207,14 +4207,14 @@
       (net 4 "Net-(C4-Pad1)"))
   )
 
-  (module replacement_kinesis_controller:JST-2 (layer B.Cu) (tedit 54EBFA01) (tstamp 54EC0F1F)
+  (module replacement_kinesis_controller:JST-2 (layer B.Cu) (tedit 550473FA) (tstamp 54EC0F1F)
     (at 125.095 82.55 180)
     (path /54E60177/54E62D4A)
     (attr virtual)
-    (fp_text reference P24 (at 0 3.6 450) (layer B.SilkS)
+    (fp_text reference P24 (at 0 3.6 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value CONN_2 (at 0 -9 180) (layer B.SilkS)
+    (fp_text value CONN_2 (at 0 -9 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -4 1.2) (end 4 1.2) (layer B.SilkS) (width 0.15))
@@ -4229,15 +4229,15 @@
       (net 2 GND))
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_PTS645 (layer F.Cu) (tedit 54EA6920) (tstamp 54EC0F27)
+  (module Buttons_Switches_SMD:SW_SPST_PTS645 (layer F.Cu) (tedit 550473DB) (tstamp 54EC0F27)
     (at 120.65 50.165 270)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (path /5471885E)
-    (fp_text reference SW1 (at 0 -0.8 270) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 -0.8 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_PUSH (at 0.05 0.8 270) (layer F.SilkS)
+    (fp_text value SW_PUSH (at 0.05 0.8 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1.75 -0.05) (layer F.SilkS) (width 0.15))
@@ -4263,15 +4263,15 @@
       (net 92 RESET))
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_PTS645 (layer F.Cu) (tedit 54EA6920) (tstamp 54EC0F2F)
+  (module Buttons_Switches_SMD:SW_SPST_PTS645 (layer F.Cu) (tedit 55047484) (tstamp 54EC0F2F)
     (at 135.89 89.535 180)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (path /54E5D929/54E72241)
-    (fp_text reference SW2 (at 0 -0.8 180) (layer F.SilkS)
+    (fp_text reference SW2 (at 0 -0.8 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_PUSH (at 0.05 0.8 180) (layer F.SilkS)
+    (fp_text value SW_PUSH (at 0.05 0.8 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1.75 -0.05) (layer F.SilkS) (width 0.15))
@@ -4297,16 +4297,16 @@
       (net 1 VCC))
   )
 
-  (module replacement_kinesis_controller:WT12 (layer F.Cu) (tedit 54EBEE91) (tstamp 54EC2BEB)
+  (module replacement_kinesis_controller:WT12 (layer F.Cu) (tedit 550474D1) (tstamp 54EC2BEB)
     (at 140.97 57.15)
     (descr "28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /54E5D929/54E5E191)
     (attr smd)
-    (fp_text reference U7 (at 0 -15.9) (layer F.SilkS)
+    (fp_text reference U7 (at 0 -15.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value WT12-A (at 0 15.3) (layer F.SilkS)
+    (fp_text value WT12-A (at 0 15.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -7 -12.8) (end 7 -12.8) (layer F.SilkS) (width 0.15))
@@ -4386,16 +4386,16 @@
     )
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-5 (layer F.Cu) (tedit 53DE885F) (tstamp 54EC1766)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-5 (layer F.Cu) (tedit 55047216) (tstamp 54EC1766)
     (at 114.935 105.41 90)
     (descr "5-pin SOT23 package")
     (tags SOT23-5)
     (path /54E60177/54EBFAD3)
     (attr smd)
-    (fp_text reference U9 (at 0 -2.9 90) (layer F.SilkS)
+    (fp_text reference U9 (at 0 -2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
-    (fp_text value MIC5504 (at 0 2.9 90) (layer F.SilkS)
+    (fp_text value MIC5504 (at 0 2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
     (fp_circle (center -0.3 -1.7) (end -0.2 -1.7) (layer F.SilkS) (width 0.15))
@@ -4420,16 +4420,16 @@
     )
   )
 
-  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 54EBF673) (tstamp 54EC20B7)
+  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 550471F2) (tstamp 54EC20B7)
     (at 106.045 105.41)
     (descr "SOT23, HandSoldering")
     (tags SOT23)
     (path /54E60177/54E64290)
     (attr smd)
-    (fp_text reference Q1 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference Q1 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MOS_P (at 0 3.81) (layer F.SilkS)
+    (fp_text value MOS_P (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.49982 0.0508) (end -1.49982 -0.65024) (layer F.SilkS) (width 0.15))
@@ -4449,16 +4449,16 @@
     )
   )
 
-  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 54EBF673) (tstamp 54EC20BE)
+  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 5504740C) (tstamp 54EC20BE)
     (at 115.8875 82.2325 90)
     (descr "SOT23, HandSoldering")
     (tags SOT23)
     (path /54E60177/54E64257)
     (attr smd)
-    (fp_text reference Q3 (at 0 -3.81 90) (layer F.SilkS)
+    (fp_text reference Q3 (at 0 -3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MOS_P (at 0 3.81 90) (layer F.SilkS)
+    (fp_text value MOS_P (at 0 3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.49982 0.0508) (end -1.49982 -0.65024) (layer F.SilkS) (width 0.15))
@@ -4478,16 +4478,16 @@
     )
   )
 
-  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 54EBF673) (tstamp 54EC2348)
+  (module replacement_kinesis_controller:SOT23_Handsoldering (layer F.Cu) (tedit 55047408) (tstamp 54EC2348)
     (at 115.8875 88.5825 90)
     (descr "SOT23, HandSoldering")
     (tags SOT23)
     (path /54E60177/54E6425E)
     (attr smd)
-    (fp_text reference Q2 (at 0 -3.81 90) (layer F.SilkS)
+    (fp_text reference Q2 (at 0 -3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MOS_N (at 0 3.81 90) (layer F.SilkS)
+    (fp_text value MOS_N (at 0 3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.49982 0.0508) (end -1.49982 -0.65024) (layer F.SilkS) (width 0.15))
@@ -4507,12 +4507,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 54E95B3F) (tstamp 54EC44A4)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x16 (layer F.Cu) (tedit 55046C04) (tstamp 54EC44A4)
     (at 90.17 74.93 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/54E56E45)
-    (fp_text reference P16 (at 0 -2.286 90) (layer F.SilkS)
+    (fp_text reference P16 (at 0 -2.286 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_16 (at 0 0 90) (layer F.SilkS) hide
@@ -4720,12 +4720,12 @@
     )
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 55023E38) (tstamp 54FBAF69)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 550472B6) (tstamp 54FBAF69)
     (at 128.27 137.16 180)
-    (fp_text reference REF** (at 0 4.5 180) (layer F.SilkS)
+    (fp_text reference REF** (at 0 4.5 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value LED_RGB_WS2811 (at 0 -6.35 180) (layer F.Fab)
+    (fp_text value LED_RGB_WS2811 (at 0 -6.35 180) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -1.4 -2.5) (end -2.5 -1.4) (layer F.SilkS) (width 0.15))
@@ -4741,11 +4741,11 @@
     (pad 2 smd rect (at -2.6 0 180) (size 1.8 1) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54FBAD8D) (tstamp 54FBB1C9)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 55047289) (tstamp 54FBB1C9)
     (at 128.27 133.35 180)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286 180) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x03 (at 0 -2.286 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0 180) (layer F.SilkS) hide
@@ -4768,15 +4768,15 @@
     )
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering (layer F.Cu) (tedit 54E9291B) (tstamp 54FBB76F)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering (layer F.Cu) (tedit 5504756E) (tstamp 54FBB76F)
     (at 163.83 135.89)
     (descr "SOT-23, HandSoldering")
     (tags SOT-23)
     (attr smd)
-    (fp_text reference SOT-23_HandSoldering (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference SOT-23_HandSoldering (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 0 3.81) (layer F.SilkS)
+    (fp_text value VAL** (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.49982 0.0508) (end -1.49982 -0.65024) (layer F.SilkS) (width 0.15))
@@ -4793,15 +4793,15 @@
     )
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-6 (layer F.Cu) (tedit 53DE8DE3) (tstamp 54FBB77A)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT23-6 (layer F.Cu) (tedit 5504756B) (tstamp 54FBB77A)
     (at 153.67 137.16 90)
     (descr "6-pin SOT23 package")
     (tags SOT23-6)
     (attr smd)
-    (fp_text reference SOT23-6_1 (at 0 -2.9 90) (layer F.SilkS)
+    (fp_text reference SOT23-6_1 (at 0 -2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
-    (fp_text value VAL** (at 0 2.9 90) (layer F.SilkS)
+    (fp_text value VAL** (at 0 2.9 90) (layer F.SilkS) hide
       (effects (font (size 1.3 1.3) (thickness 0.2)))
     )
     (fp_circle (center -0.4 -1.7) (end -0.3 -1.7) (layer F.SilkS) (width 0.15))
@@ -4822,11 +4822,11 @@
     )
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 54E960F5) (tstamp 54FBBB9B)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x02 (layer F.Cu) (tedit 550472F2) (tstamp 54FBBB9B)
     (at 135.89 134.62 270)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference Pin_Header_Staggered_Straight_1x02 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference Pin_Header_Staggered_Straight_1x02 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 0 270) (layer F.SilkS) hide
@@ -4867,12 +4867,12 @@
     (pad "" np_thru_hole circle (at 1.016 1.016 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 54E93275) (tstamp 55046A78)
+  (module replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03 (layer F.Cu) (tedit 5504731B) (tstamp 55046A78)
     (at 143.51 124.46 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54E54FA3/55047ED4)
-    (fp_text reference K5 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference K5 (at 0 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_3 (at 0 0 270) (layer F.SilkS) hide
@@ -4898,6 +4898,102 @@
     )
   )
 
+  (gr_text 3V (at 109.22 93.98) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text E6 (at 109.22 91.44) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text B0 (at 109.22 88.9) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text B1 (at 109.22 86.36) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text B2 (at 109.22 83.82) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text B3 (at 109.22 81.28) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D0 (at 109.22 78.74) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D1 (at 109.22 76.2) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D2 (at 109.22 73.66) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D3 (at 109.22 71.12) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D4 (at 109.22 68.58) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D5 (at 109.22 66.04) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D6 (at 109.22 63.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text D7 (at 109.22 60.96) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text GND (at 109.22 58.42) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text RST (at 109.22 55.88) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
+  )
+  (gr_text VCC (at 91.44 55.88) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text GND (at 91.44 58.42) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text B4 (at 91.44 60.96) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text B5 (at 92.71 63.5 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text B6 (at 91.44 66.04) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text B7 (at 91.44 68.58) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text C6 (at 91.44 71.12) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text C7 (at 91.44 73.66) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F7 (at 91.44 76.2) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F6 (at 91.44 78.74) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F5 (at 91.44 81.28) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F4 (at 91.44 83.82) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F1 (at 91.44 86.36) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text F0 (at 91.44 88.9) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text AR (at 91.44 91.44) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text 5V (at 91.44 93.98) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 73.66 128.27) (end 73.66 44.45) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 166.37 129.54) (end 171.45 129.54) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 172.72 44.45) (end 172.72 128.27) (angle 90) (layer Edge.Cuts) (width 0.1))
@@ -5092,8 +5188,10 @@
   (segment (start 128.905 137.795) (end 128.27 138.43) (width 0.254) (layer B.Cu) (net 0) (tstamp 54FBB273))
   (via (at 128.905 137.795) (size 0.889) (layers F.Cu B.Cu) (net 0))
   (segment (start 129.54 137.16) (end 128.905 137.795) (width 0.254) (layer F.Cu) (net 0) (tstamp 54FBB271))
-  (segment (start 138.49 126.492) (end 141.097 126.492) (width 0.381) (layer F.Cu) (net 1) (status 400000))
-  (segment (start 141.605 127) (end 143.637 127) (width 0.381) (layer F.Cu) (net 1) (tstamp 55046A90) (status 800000))
+  (segment (start 94.615 63.058) (end 94.615 60.325) (width 0.381) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 94.615 60.325) (end 95.25 59.69) (width 0.381) (layer F.Cu) (net 1) (tstamp 55048151))
+  (segment (start 138.49 126.492) (end 141.097 126.492) (width 0.381) (layer F.Cu) (net 1))
+  (segment (start 141.605 127) (end 143.637 127) (width 0.381) (layer F.Cu) (net 1) (tstamp 55046A90))
   (segment (start 141.097 126.492) (end 141.605 127) (width 0.381) (layer F.Cu) (net 1) (tstamp 55046A8F))
   (segment (start 151.257 80.01) (end 152.4 80.01) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 161.29 80.01) (end 162.179 80.01) (width 0.381) (layer F.Cu) (net 1) (tstamp 550462FE))
@@ -5108,10 +5206,8 @@
   (segment (start 144.78 82.423) (end 144.78 80.645) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 145.415 80.01) (end 151.257 80.01) (width 0.381) (layer B.Cu) (net 1) (tstamp 5504629E))
   (segment (start 144.78 80.645) (end 145.415 80.01) (width 0.381) (layer B.Cu) (net 1) (tstamp 5504629A))
-  (segment (start 93.345 63.058) (end 93.345 61.595) (width 0.381) (layer F.Cu) (net 1))
   (via (at 95.25 55.88) (size 0.889) (layers F.Cu B.Cu) (net 1))
   (segment (start 95.25 59.69) (end 95.25 55.88) (width 0.381) (layer F.Cu) (net 1) (tstamp 5504558C))
-  (segment (start 93.345 61.595) (end 95.25 59.69) (width 0.381) (layer F.Cu) (net 1) (tstamp 55045580))
   (segment (start 165.1 83.185) (end 163.195 85.09) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 153.035 92.075) (end 148.59 96.52) (width 0.381) (layer B.Cu) (net 1) (tstamp 55045299))
   (segment (start 160.02 85.09) (end 153.035 92.075) (width 0.381) (layer B.Cu) (net 1) (tstamp 55045294))
@@ -5549,8 +5645,7 @@
   (segment (start 119.0625 84.7725) (end 118.4275 85.4075) (width 0.381) (layer F.Cu) (net 9) (tstamp 54EEA171))
   (segment (start 117.38864 81.2825) (end 118.7475 81.2825) (width 0.381) (layer F.Cu) (net 9))
   (segment (start 118.4275 85.4075) (end 117.2375 85.4075) (width 0.381) (layer F.Cu) (net 9) (tstamp 54EEA172))
-  (segment (start 93.345 63.942) (end 93.345 64.135) (width 0.254) (layer F.Cu) (net 10))
-  (segment (start 93.345 64.135) (end 94.615 65.405) (width 0.254) (layer F.Cu) (net 10) (tstamp 55045063))
+  (segment (start 94.615 63.942) (end 94.615 65.405) (width 0.254) (layer F.Cu) (net 10) (status 400000))
   (segment (start 94.742 65.405) (end 94.615 65.405) (width 0.254) (layer B.Cu) (net 10) (tstamp 54FA97F7))
   (via (at 94.615 65.405) (size 0.889) (layers F.Cu B.Cu) (net 10))
   (segment (start 94.615 65.405) (end 95.17 64.85) (width 0.254) (layer F.Cu) (net 10) (tstamp 54FA9800))
@@ -5949,6 +6044,8 @@
   (segment (start 87.63 80.01) (end 86.995 80.645) (width 0.254) (layer B.Cu) (net 61) (tstamp 54EFFB05))
   (via (at 86.995 80.645) (size 0.889) (layers F.Cu B.Cu) (net 61))
   (segment (start 88.265 80.01) (end 87.63 80.01) (width 0.254) (layer B.Cu) (net 61))
+  (segment (start 137.16 73.58) (end 139.39902 73.58) (width 0.254) (layer F.Cu) (net 62))
+  (segment (start 139.39902 73.58) (end 139.7 73.88098) (width 0.254) (layer F.Cu) (net 62) (tstamp 55047A1C))
   (segment (start 98.83902 109.22) (end 99.695 110.07598) (width 0.254) (layer F.Cu) (net 63) (tstamp 54FAA43C))
   (segment (start 96.6 109.22) (end 98.83902 109.22) (width 0.254) (layer F.Cu) (net 63))
   (segment (start 105.095 107.63) (end 105.095 106.91114) (width 0.254) (layer F.Cu) (net 64) (tstamp 54EEA0A5))
@@ -6001,11 +6098,11 @@
   (segment (start 125.5 124) (end 131.3 124) (width 0.254) (layer F.Cu) (net 80) (tstamp 54EE9F71))
   (segment (start 124.908 124.592) (end 125.5 124) (width 0.254) (layer F.Cu) (net 80) (tstamp 54EE9F6E))
   (segment (start 124.908 124.892) (end 124.908 124.592) (width 0.254) (layer F.Cu) (net 80))
-  (segment (start 133.29 124.892) (end 133.29 124.52) (width 0.254) (layer F.Cu) (net 82) (status C00000))
-  (segment (start 133.29 124.52) (end 133.985 123.825) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A87) (status 400000))
+  (segment (start 133.29 124.892) (end 133.29 124.52) (width 0.254) (layer F.Cu) (net 82))
+  (segment (start 133.29 124.52) (end 133.985 123.825) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A87))
   (segment (start 133.985 123.825) (end 139.7 123.825) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A88))
   (segment (start 139.7 123.825) (end 141.605 121.92) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A89))
-  (segment (start 141.605 121.92) (end 143.637 121.92) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A8B) (status 800000))
+  (segment (start 141.605 121.92) (end 143.637 121.92) (width 0.254) (layer F.Cu) (net 82) (tstamp 55046A8B))
   (segment (start 80.645 93.345) (end 81.28 93.98) (width 0.254) (layer F.Cu) (net 83))
   (segment (start 81.28 93.98) (end 81.915 93.98) (width 0.254) (layer F.Cu) (net 83) (tstamp 54FBCC27))
   (segment (start 79.375 92.71) (end 80.01 93.345) (width 0.254) (layer F.Cu) (net 83))
@@ -8076,34 +8173,31 @@
         (xy 97.028 62.277) (xy 97.028 62.023) (xy 97.028 60.92375) (xy 96.86925 60.765) (xy 96.631309 60.765)
         (xy 96.37869 60.765) (xy 96.145301 60.861673) (xy 95.966673 61.040302) (xy 95.87 61.273691) (xy 95.87 61.86425)
         (xy 96.02875 62.023) (xy 97.028 62.023) (xy 97.028 62.277) (xy 96.02875 62.277) (xy 95.87 62.43575)
-        (xy 95.87 63.026309) (xy 95.966673 63.259698) (xy 96.145301 63.438327) (xy 96.283442 63.495546) (xy 96.262877 63.499537)
-        (xy 96.050073 63.639327) (xy 95.907623 63.85036) (xy 95.859966 64.088) (xy 95.17 64.088) (xy 94.878396 64.146003)
-        (xy 94.639739 64.305468) (xy 94.64244 64.292) (xy 94.64244 63.592) (xy 94.624295 63.498479) (xy 94.64244 63.408)
-        (xy 94.64244 62.708) (xy 94.595463 62.465877) (xy 94.455673 62.253073) (xy 94.24464 62.110623) (xy 94.1705 62.095754)
-        (xy 94.1705 61.936934) (xy 95.833717 60.273717) (xy 96.012663 60.005905) (xy 96.0755 59.69) (xy 96.075501 59.69)
-        (xy 96.0755 59.689994) (xy 96.0755 56.581252) (xy 96.164622 56.492286) (xy 96.329313 56.095668) (xy 96.329687 55.666216)
-        (xy 96.165689 55.269311) (xy 95.862286 54.965378) (xy 95.465668 54.800687) (xy 95.036216 54.800313) (xy 94.639311 54.964311)
-        (xy 94.335378 55.267714) (xy 94.170687 55.664332) (xy 94.170313 56.093784) (xy 94.334311 56.490689) (xy 94.4245 56.581035)
-        (xy 94.4245 59.348066) (xy 94.107 59.665566) (xy 94.107 49.620524) (xy 94.112233 49.633158) (xy 94.290861 49.811787)
-        (xy 94.52425 49.90846) (xy 94.776869 49.90846) (xy 94.96425 49.90846) (xy 95.123 49.74971) (xy 95.123 48.80102)
-        (xy 95.103 48.80102) (xy 95.103 48.54702) (xy 95.123 48.54702) (xy 95.123 48.52702) (xy 95.377 48.52702)
-        (xy 95.377 48.54702) (xy 96.32569 48.54702) (xy 96.48444 48.38827) (xy 96.48444 47.948271) (xy 96.387767 47.714882)
-        (xy 96.306225 47.633339) (xy 96.446817 47.42506) (xy 96.46428 47.33798) (xy 97.221082 47.33798) (xy 97.314327 47.479927)
-        (xy 97.52536 47.622377) (xy 97.53453 47.624216) (xy 97.532877 47.624537) (xy 97.320073 47.764327) (xy 97.177623 47.97536)
-        (xy 97.12756 48.225) (xy 97.12756 49.1441) (xy 97.027337 49.294094) (xy 96.9645 49.61) (xy 96.9645 50.707245)
-        (xy 96.700971 50.88333) (xy 96.48444 51.207391) (xy 96.48444 49.399769) (xy 96.48444 48.95977) (xy 96.32569 48.80102)
-        (xy 95.377 48.80102) (xy 95.377 49.74971) (xy 95.53575 49.90846) (xy 95.723131 49.90846) (xy 95.97575 49.90846)
-        (xy 96.209139 49.811787) (xy 96.387767 49.633158) (xy 96.48444 49.399769) (xy 96.48444 51.207391) (xy 96.376115 51.369511)
-        (xy 96.262041 51.943) (xy 96.376115 52.516489) (xy 96.700971 53.00267) (xy 96.716081 53.012766) (xy 96.684277 53.018937)
-        (xy 96.471473 53.158727) (xy 96.329023 53.36976) (xy 96.27896 53.6194) (xy 96.27896 55.3466) (xy 96.325937 55.588723)
-        (xy 96.465727 55.801527) (xy 96.67676 55.943977) (xy 96.9264 55.99404) (xy 97.050684 55.99404) (xy 97.086004 56.171605)
-        (xy 97.251185 56.418815) (xy 97.886185 57.053816) (xy 98.034376 57.152834) (xy 98.133395 57.218996) (xy 98.133396 57.218996)
-        (xy 98.425 57.277) (xy 102.105358 57.277) (xy 102.257714 57.429622) (xy 102.654332 57.594313) (xy 103.083784 57.594687)
-        (xy 103.480689 57.430689) (xy 103.784622 57.127286) (xy 103.949313 56.730668) (xy 103.949455 56.566664) (xy 103.975395 56.583996)
-        (xy 104.267 56.642) (xy 108.95356 56.642) (xy 108.95356 56.7436) (xy 109.000537 56.985723) (xy 109.140327 57.198527)
-        (xy 109.27104 57.28676) (xy 109.012268 57.517964) (xy 108.758291 58.045209) (xy 108.755642 58.060974) (xy 108.876783 58.293)
-        (xy 110.236 58.293) (xy 110.236 58.273) (xy 110.49 58.273) (xy 110.49 58.293) (xy 110.51 58.293)
-        (xy 110.51 58.547)
+        (xy 95.87 62.489261) (xy 95.865463 62.465877) (xy 95.725673 62.253073) (xy 95.51464 62.110623) (xy 95.4405 62.095754)
+        (xy 95.4405 60.666933) (xy 95.833713 60.273719) (xy 95.833717 60.273717) (xy 95.833717 60.273716) (xy 96.012663 60.005905)
+        (xy 96.0755 59.69) (xy 96.075501 59.69) (xy 96.0755 59.689994) (xy 96.0755 56.581252) (xy 96.164622 56.492286)
+        (xy 96.329313 56.095668) (xy 96.329687 55.666216) (xy 96.165689 55.269311) (xy 95.862286 54.965378) (xy 95.465668 54.800687)
+        (xy 95.036216 54.800313) (xy 94.639311 54.964311) (xy 94.335378 55.267714) (xy 94.170687 55.664332) (xy 94.170313 56.093784)
+        (xy 94.334311 56.490689) (xy 94.4245 56.581035) (xy 94.4245 59.348066) (xy 94.107 59.665566) (xy 94.107 49.620524)
+        (xy 94.112233 49.633158) (xy 94.290861 49.811787) (xy 94.52425 49.90846) (xy 94.776869 49.90846) (xy 94.96425 49.90846)
+        (xy 95.123 49.74971) (xy 95.123 48.80102) (xy 95.103 48.80102) (xy 95.103 48.54702) (xy 95.123 48.54702)
+        (xy 95.123 48.52702) (xy 95.377 48.52702) (xy 95.377 48.54702) (xy 96.32569 48.54702) (xy 96.48444 48.38827)
+        (xy 96.48444 47.948271) (xy 96.387767 47.714882) (xy 96.306225 47.633339) (xy 96.446817 47.42506) (xy 96.46428 47.33798)
+        (xy 97.221082 47.33798) (xy 97.314327 47.479927) (xy 97.52536 47.622377) (xy 97.53453 47.624216) (xy 97.532877 47.624537)
+        (xy 97.320073 47.764327) (xy 97.177623 47.97536) (xy 97.12756 48.225) (xy 97.12756 49.1441) (xy 97.027337 49.294094)
+        (xy 96.9645 49.61) (xy 96.9645 50.707245) (xy 96.700971 50.88333) (xy 96.48444 51.207391) (xy 96.48444 49.399769)
+        (xy 96.48444 48.95977) (xy 96.32569 48.80102) (xy 95.377 48.80102) (xy 95.377 49.74971) (xy 95.53575 49.90846)
+        (xy 95.723131 49.90846) (xy 95.97575 49.90846) (xy 96.209139 49.811787) (xy 96.387767 49.633158) (xy 96.48444 49.399769)
+        (xy 96.48444 51.207391) (xy 96.376115 51.369511) (xy 96.262041 51.943) (xy 96.376115 52.516489) (xy 96.700971 53.00267)
+        (xy 96.716081 53.012766) (xy 96.684277 53.018937) (xy 96.471473 53.158727) (xy 96.329023 53.36976) (xy 96.27896 53.6194)
+        (xy 96.27896 55.3466) (xy 96.325937 55.588723) (xy 96.465727 55.801527) (xy 96.67676 55.943977) (xy 96.9264 55.99404)
+        (xy 97.050684 55.99404) (xy 97.086004 56.171605) (xy 97.251185 56.418815) (xy 97.886185 57.053816) (xy 98.034376 57.152834)
+        (xy 98.133395 57.218996) (xy 98.133396 57.218996) (xy 98.425 57.277) (xy 102.105358 57.277) (xy 102.257714 57.429622)
+        (xy 102.654332 57.594313) (xy 103.083784 57.594687) (xy 103.480689 57.430689) (xy 103.784622 57.127286) (xy 103.949313 56.730668)
+        (xy 103.949455 56.566664) (xy 103.975395 56.583996) (xy 104.267 56.642) (xy 108.95356 56.642) (xy 108.95356 56.7436)
+        (xy 109.000537 56.985723) (xy 109.140327 57.198527) (xy 109.27104 57.28676) (xy 109.012268 57.517964) (xy 108.758291 58.045209)
+        (xy 108.755642 58.060974) (xy 108.876783 58.293) (xy 110.236 58.293) (xy 110.236 58.273) (xy 110.49 58.273)
+        (xy 110.49 58.293) (xy 110.51 58.293) (xy 110.51 58.547)
       )
     )
     (filled_polygon

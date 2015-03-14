@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-21 BZR 5441)-product   date = Mon 23 Feb 2015 09:58:39 PM CST
+Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5504)-product   date = Sat 14 Mar 2015 11:58:45 AM CDT
 
 BeginCmp
 TimeStamp = /54E71464;
@@ -339,6 +339,13 @@ EndCmp
 BeginCmp
 TimeStamp = /54E6F569/54E6FB16;
 Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E54FA3/55047ED4;
+Reference = K5;
 ValeurCmp = CONN_3;
 IdModule  = replacement_kinesis_controller:Pin_Header_Staggered_Straight_1x03;
 EndCmp

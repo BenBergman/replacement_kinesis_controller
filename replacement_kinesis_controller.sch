@@ -975,12 +975,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2600 6850 2400
 Wire Wire Line
-	7050 1750 6800 1750
-Wire Wire Line
-	6800 1850 7050 1850
-Wire Wire Line
-	7050 1850 7050 1900
-Wire Wire Line
 	6800 1550 6800 1650
 Wire Wire Line
 	6800 1050 6800 950 
@@ -1517,4 +1511,8 @@ F 3 "" H 5650 3650 60  0000 C CNN
 	1    5650 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7050 1750 6800 1850
+Wire Wire Line
+	6800 1750 7050 1900
 $EndSCHEMATC

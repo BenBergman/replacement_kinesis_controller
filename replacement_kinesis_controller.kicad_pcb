@@ -7928,7 +7928,7 @@
     )
   )
 
-  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 550472B6) (tstamp 54FBAF69)
+  (module replacement_kinesis_controller:LED_RGB_WS2811 (layer F.Cu) (tedit 550B633A) (tstamp 54FBAF69)
     (at 128.27 137.16 180)
     (fp_text reference REF** (at 0 4.5 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -8936,7 +8936,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text SCL (at 148.59 104.14) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+    (effects (font (size 1.5 1.2) (thickness 0.3)) (justify left))
   )
   (gr_text SDA (at 148.59 101.6) (layer F.SilkS)
     (effects (font (size 1.5 1.2) (thickness 0.3)) (justify left))
@@ -12418,7 +12418,7 @@
         (xy 100.203 114.97125) (xy 100.203 121.98537) (xy 98.669981 120.452351) (xy 98.879029 120.31267) (xy 99.203885 119.826489)
         (xy 99.317959 119.253) (xy 99.203885 118.679511) (xy 98.879029 118.19333) (xy 98.564248 117.983) (xy 98.879029 117.77267)
         (xy 99.203885 117.286489) (xy 99.317959 116.713) (xy 99.203885 116.139511) (xy 98.879029 115.65333) (xy 98.552 115.434816)
-        (xy 98.552 114.638871) (xy 98.594927 114.610673) (xy 98.737377 114.39964) (xy 98.78744 114.15) (xy 98.78744 113.15)
+        (xy 98.552 115.038871) (xy 98.594927 115.010673) (xy 98.737377 114.79964) (xy 98.78744 114.55) (xy 98.78744 113.15)
         (xy 98.740463 112.907877) (xy 98.600673 112.695073) (xy 98.552 112.662218) (xy 98.552 112.128871) (xy 98.594927 112.100673)
         (xy 98.737377 111.88964) (xy 98.78744 111.64) (xy 98.78744 110.910689) (xy 98.844332 110.934313) (xy 99.03256 110.934476)
         (xy 99.03256 111.795) (xy 99.079537 112.037123) (xy 99.219327 112.249927) (xy 99.43036 112.392377) (xy 99.460791 112.398479)
